@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Information Blackout",
+  "version": "0.2.0",
+  "description": "Locally detects and conceals likely spoilers for topics you choose.",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "Information Blackout",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "css": ["content.css", "feedback.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

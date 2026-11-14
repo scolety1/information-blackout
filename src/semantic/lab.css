@@ -1,0 +1,29 @@
+[data-semantic-candidate][data-semantic-pending="true"] {
+  visibility: hidden;
+  min-height: 2.5rem;
+}
+
+[data-semantic-candidate][data-ib-protected="true"] {
+  position: relative;
+  min-height: 3.5rem;
+}
+
+.m3-lab-concealed {
+  visibility: hidden;
+}
+
+.m3-lab-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #fff;
+  background: #111;
+  font: 600 14px system-ui, sans-serif;
+}
+
+.m3-lab-overlay button {
+  padding: 0.35rem 0.7rem;
+}

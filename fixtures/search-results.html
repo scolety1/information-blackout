@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Search results fixture</title>
+  <style>
+    body { max-width: 780px; margin: 2rem auto; font: 16px/1.5 system-ui; color: #172033; }
+    .result { margin: 1rem 0; padding: 1rem; border: 1px solid #d5dae3; border-radius: 0.6rem; }
+    .url, .meta { color: #64748b; font-size: 0.8rem; }
+    h2, p { margin: 0.25rem 0; }
+  </style>
+</head>
+<body>
+  <header><p class="meta">Synthetic search · mixed results</p><h1>Search results for entertainment news</h1></header>
+  <main>
+    <article class="result" id="search-spoiler-card">
+      <p class="url">example.test/culture/recap</p>
+      <h2 id="search-spoiler">Severance finale: Mark Scout betrays the Macrodata Refinement team</h2>
+      <p>A result snippet with nested metadata and an intentionally revealing headline.</p>
+    </article>
+    <article class="result" id="search-benign-card">
+      <p class="url">example.test/streaming/calendar</p>
+      <h2 id="search-benign">Severance season one is available to stream</h2>
+      <p id="search-benign-snippet">Release calendar, platform availability, and accessibility details.</p>
+    </article>
+    <article class="result">
+      <p class="url">example.test/markets</p>
+      <h2 id="search-collision">The bear market score ended lower today</h2>
+      <p>Financial reporting unrelated to the protected television title.</p>
+    </article>
+  </main>
+</body>
+</html>

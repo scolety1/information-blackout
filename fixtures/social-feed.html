@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Social feed fixture</title>
+  <style>
+    body { max-width: 720px; margin: 2rem auto; font: 16px/1.5 system-ui; background: #f3f5f8; }
+    article { margin: 1rem 0; padding: 1rem; border-radius: 0.7rem; background: white; box-shadow: 0 2px 9px #d8dde6; }
+    .meta { color: #64748b; font-size: 0.8rem; }
+    .comment { margin-left: 2rem; padding: 0.65rem; border-left: 3px solid #cbd5e1; }
+  </style>
+</head>
+<body>
+  <header><h1>Community feed</h1><button id="load-post" type="button">Load newer post</button></header>
+  <main id="feed">
+    <article id="social-tv-card">
+      <p class="meta">@episodeclub · 4m</p>
+      <p id="social-tv-spoiler">Lumon's board is revealed to be run by Mark's missing sister.</p>
+      <p class="comment" id="social-benign-comment">I started watching Severance yesterday.</p>
+    </article>
+    <article id="social-sports-card">
+      <p class="meta">@courtside · 8m</p>
+      <p id="social-sports-spoiler">Nuggets defeated Boston 118-110 in the championship game.</p>
+    </article>
+  </main>
+  <script>
+    document.querySelector("#load-post").addEventListener("click", () => {
+      const post = document.createElement("article");
+      post.id = "social-dynamic-card";
+      const meta = document.createElement("p");
+      meta.className = "meta";
+      meta.textContent = "@latefeed · now";
+      const body = document.createElement("p");
+      body.id = "social-dynamic-spoiler";
+      body.textContent = "Mark Scout survives and becomes Lumon's new director.";
+      post.append(meta, body);
+      document.querySelector("#feed").prepend(post);
+    });
+  </script>
+</body>
+</html>

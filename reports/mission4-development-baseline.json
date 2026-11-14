@@ -1,0 +1,5213 @@
+{
+  "schemaVersion": 1,
+  "label": "mission3-production-baseline",
+  "detectorVersion": "detector-v0.3-mission3-baseline",
+  "detectorSourceSha256": "83ad3823f6cbfb731abde88ff24a8310bb581e2c63bca42d7357b1fa1ccd9c35",
+  "corpusSha256": "9efe52087ad198a6670a181ee4f5150b9077dce41fcf8a0c5aed2d896eb60be0",
+  "corpus": {
+    "total": 840,
+    "development": 600,
+    "validation": 240,
+    "spoiler": 420,
+    "benign": 420
+  },
+  "metrics": {
+    "development": {
+      "total": 600,
+      "truePositives": 175,
+      "falsePositives": 122,
+      "trueNegatives": 178,
+      "falseNegatives": 125,
+      "precision": 0.5892,
+      "recall": 0.5833,
+      "f1": 0.5862,
+      "falsePositiveRate": 0.4067,
+      "falseNegativeRate": 0.4167
+    },
+    "validation": {
+      "total": 240,
+      "truePositives": 66,
+      "falsePositives": 14,
+      "trueNegatives": 106,
+      "falseNegatives": 54,
+      "precision": 0.825,
+      "recall": 0.55,
+      "f1": 0.66,
+      "falsePositiveRate": 0.1167,
+      "falseNegativeRate": 0.45
+    },
+    "overall": {
+      "total": 840,
+      "truePositives": 241,
+      "falsePositives": 136,
+      "trueNegatives": 284,
+      "falseNegatives": 179,
+      "precision": 0.6393,
+      "recall": 0.5738,
+      "f1": 0.6048,
+      "falsePositiveRate": 0.3238,
+      "falseNegativeRate": 0.4262
+    }
+  },
+  "byCategory": {
+    "development": {
+      "book": {
+        "total": 100,
+        "truePositives": 23,
+        "falsePositives": 25,
+        "trueNegatives": 25,
+        "falseNegatives": 27,
+        "precision": 0.4792,
+        "recall": 0.46,
+        "f1": 0.4694,
+        "falsePositiveRate": 0.5,
+        "falseNegativeRate": 0.54
+      },
+      "competition": {
+        "total": 100,
+        "truePositives": 40,
+        "falsePositives": 15,
+        "trueNegatives": 35,
+        "falseNegatives": 10,
+        "precision": 0.7273,
+        "recall": 0.8,
+        "f1": 0.7619,
+        "falsePositiveRate": 0.3,
+        "falseNegativeRate": 0.2
+      },
+      "game": {
+        "total": 100,
+        "truePositives": 20,
+        "falsePositives": 15,
+        "trueNegatives": 35,
+        "falseNegatives": 30,
+        "precision": 0.5714,
+        "recall": 0.4,
+        "f1": 0.4706,
+        "falsePositiveRate": 0.3,
+        "falseNegativeRate": 0.6
+      },
+      "movie": {
+        "total": 100,
+        "truePositives": 25,
+        "falsePositives": 25,
+        "trueNegatives": 25,
+        "falseNegatives": 25,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "falsePositiveRate": 0.5,
+        "falseNegativeRate": 0.5
+      },
+      "sports": {
+        "total": 100,
+        "truePositives": 41,
+        "falsePositives": 17,
+        "trueNegatives": 33,
+        "falseNegatives": 9,
+        "precision": 0.7069,
+        "recall": 0.82,
+        "f1": 0.7593,
+        "falsePositiveRate": 0.34,
+        "falseNegativeRate": 0.18
+      },
+      "tv": {
+        "total": 100,
+        "truePositives": 26,
+        "falsePositives": 25,
+        "trueNegatives": 25,
+        "falseNegatives": 24,
+        "precision": 0.5098,
+        "recall": 0.52,
+        "f1": 0.5148,
+        "falsePositiveRate": 0.5,
+        "falseNegativeRate": 0.48
+      }
+    },
+    "validation": {
+      "book": {
+        "total": 40,
+        "truePositives": 10,
+        "falsePositives": 2,
+        "trueNegatives": 18,
+        "falseNegatives": 10,
+        "precision": 0.8333,
+        "recall": 0.5,
+        "f1": 0.625,
+        "falsePositiveRate": 0.1,
+        "falseNegativeRate": 0.5
+      },
+      "competition": {
+        "total": 40,
+        "truePositives": 16,
+        "falsePositives": 2,
+        "trueNegatives": 18,
+        "falseNegatives": 4,
+        "precision": 0.8889,
+        "recall": 0.8,
+        "f1": 0.8421,
+        "falsePositiveRate": 0.1,
+        "falseNegativeRate": 0.2
+      },
+      "game": {
+        "total": 40,
+        "truePositives": 10,
+        "falsePositives": 2,
+        "trueNegatives": 18,
+        "falseNegatives": 10,
+        "precision": 0.8333,
+        "recall": 0.5,
+        "f1": 0.625,
+        "falsePositiveRate": 0.1,
+        "falseNegativeRate": 0.5
+      },
+      "movie": {
+        "total": 40,
+        "truePositives": 10,
+        "falsePositives": 2,
+        "trueNegatives": 18,
+        "falseNegatives": 10,
+        "precision": 0.8333,
+        "recall": 0.5,
+        "f1": 0.625,
+        "falsePositiveRate": 0.1,
+        "falseNegativeRate": 0.5
+      },
+      "sports": {
+        "total": 40,
+        "truePositives": 10,
+        "falsePositives": 4,
+        "trueNegatives": 16,
+        "falseNegatives": 10,
+        "precision": 0.7143,
+        "recall": 0.5,
+        "f1": 0.5882,
+        "falsePositiveRate": 0.2,
+        "falseNegativeRate": 0.5
+      },
+      "tv": {
+        "total": 40,
+        "truePositives": 10,
+        "falsePositives": 2,
+        "trueNegatives": 18,
+        "falseNegatives": 10,
+        "precision": 0.8333,
+        "recall": 0.5,
+        "f1": 0.625,
+        "falsePositiveRate": 0.1,
+        "falseNegativeRate": 0.5
+      }
+    }
+  },
+  "byFamily": {
+    "development": {
+      "award-collision": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "betrayal": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "betting": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "boss-identity": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "casting": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "champion": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "completed-result": {
+        "total": 5,
+        "truePositives": 1,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 4,
+        "precision": 1,
+        "recall": 0.2,
+        "f1": 0.3333,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.8
+      },
+      "conditional": {
+        "total": 25,
+        "truePositives": 0,
+        "falsePositives": 20,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.8,
+        "falseNegativeRate": 0
+      },
+      "confirmed-death": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "confirmed-survival": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "confirmed-twist": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 20,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "confirmed-winner": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "elimination": {
+        "total": 10,
+        "truePositives": 10,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "ending": {
+        "total": 15,
+        "truePositives": 14,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9333,
+        "f1": 0.9655,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0667
+      },
+      "fantasy": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "final-score": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "finale-result": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 5,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "finalists": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "hidden-location": {
+        "total": 20,
+        "truePositives": 1,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 19,
+        "precision": 1,
+        "recall": 0.05,
+        "f1": 0.0952,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.95
+      },
+      "historic-current-article": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "historical": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "hypothetical": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "identity": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 20,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "identity-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "immunity-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "implication": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 20,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "implicit-result": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 5,
+        "precision": 1,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.5
+      },
+      "injury": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 1,
+        "trueNegatives": 4,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.2,
+        "falseNegativeRate": 0
+      },
+      "language-collision": {
+        "total": 15,
+        "truePositives": 0,
+        "falsePositives": 15,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "lineup": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "live-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "metadata": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "overtime-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "patch-notes": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "post-credit": {
+        "total": 15,
+        "truePositives": 14,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9333,
+        "f1": 0.9655,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0667
+      },
+      "prediction": {
+        "total": 30,
+        "truePositives": 0,
+        "falsePositives": 25,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0
+      },
+      "preview": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "question": {
+        "total": 30,
+        "truePositives": 0,
+        "falsePositives": 5,
+        "trueNegatives": 25,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.1667,
+        "falseNegativeRate": 0
+      },
+      "quoted-speculation": {
+        "total": 25,
+        "truePositives": 0,
+        "falsePositives": 5,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.2,
+        "falseNegativeRate": 0
+      },
+      "relationship": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 20,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "review": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "review-language": {
+        "total": 15,
+        "truePositives": 0,
+        "falsePositives": 15,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "review-score": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "runner-up": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "schedule": {
+        "total": 10,
+        "truePositives": 0,
+        "falsePositives": 1,
+        "trueNegatives": 9,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.1,
+        "falseNegativeRate": 0
+      },
+      "score-collision": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "secret-area": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 5,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "sent-home": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "series-result": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 5,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "spoiler-free-review": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 20,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "strategy": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "theory": {
+        "total": 25,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 25,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "winner": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    },
+    "validation": {
+      "heldout-allegiance": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-archive": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-attributed-guess": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-award": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-casting": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-causality": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-ceremony": {
+        "total": 4,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.5
+      },
+      "heldout-conditional": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-counterfactual": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-crown": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-decider": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-departure": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-distribution": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-elimination": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-emotional-review": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 8,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "heldout-ending": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-exit": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-extra-time": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-fan-hypothesis": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-fantasy": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-finalists": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-fixture": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-forecast": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-health": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 2,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "heldout-identity": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-imagination": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-immunity": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-implication": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-interrogative": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-kinship": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-live": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-location": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-market": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-nondisclosure-review": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-obituary": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-pick": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-prediction": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-preview": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-question": {
+        "total": 4,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 4,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-rating": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-result": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-review": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-roster": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 2,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "heldout-rumor": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-runner-up": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-schedule": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-score": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-series": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-stinger": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-survival": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-theory": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-title": {
+        "total": 4,
+        "truePositives": 2,
+        "falsePositives": 2,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6667,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "heldout-trophy": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-unmasking": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-verdict": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-winner": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-word-sense": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    }
+  },
+  "falsePositiveTaxonomy": {
+    "award-collision": 5,
+    "conditional": 20,
+    "heldout-emotional-review": 8,
+    "heldout-health": 2,
+    "heldout-roster": 2,
+    "heldout-title": 2,
+    "historical": 5,
+    "injury": 1,
+    "language-collision": 15,
+    "lineup": 5,
+    "prediction": 25,
+    "question": 5,
+    "quoted-speculation": 5,
+    "review-language": 15,
+    "schedule": 1,
+    "spoiler-free-review": 20
+  },
+  "failures": {
+    "development": [
+      {
+        "id": "m4-development-tv-1-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-1-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-2-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-3-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-4-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-tv-5-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-1-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-2-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-3-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-4-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-movie-5-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-spoiler-06",
+        "family": "ending",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-spoiler-07",
+        "family": "post-credit",
+        "expected": "spoiler",
+        "score": 5.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-1-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-2-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-3-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-4-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-benign-09",
+        "family": "review-language",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-book-5-benign-10",
+        "family": "language-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-spoiler-07",
+        "family": "secret-area",
+        "expected": "spoiler",
+        "score": 5.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-1-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-spoiler-07",
+        "family": "secret-area",
+        "expected": "spoiler",
+        "score": 5.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-2-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-spoiler-07",
+        "family": "secret-area",
+        "expected": "spoiler",
+        "score": 5.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-3-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-spoiler-07",
+        "family": "secret-area",
+        "expected": "spoiler",
+        "score": 5.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-4-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-spoiler-04",
+        "family": "identity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-spoiler-05",
+        "family": "relationship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-spoiler-07",
+        "family": "secret-area",
+        "expected": "spoiler",
+        "score": 5.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-spoiler-08",
+        "family": "hidden-location",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-spoiler-09",
+        "family": "confirmed-twist",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-spoiler-10",
+        "family": "implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 8.25,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-benign-04",
+        "family": "conditional",
+        "expected": "benign",
+        "score": 11,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-game-5-benign-06",
+        "family": "spoiler-free-review",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-sports-1-spoiler-04",
+        "family": "completed-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-1-spoiler-09",
+        "family": "series-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-1-benign-02",
+        "family": "question",
+        "expected": "benign",
+        "score": 9,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "question-form"
+        ]
+      },
+      {
+        "id": "m4-development-sports-1-benign-07",
+        "family": "lineup",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-development-sports-1-benign-09",
+        "family": "historical",
+        "expected": "benign",
+        "score": 8.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-sports-2-spoiler-04",
+        "family": "completed-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-2-spoiler-09",
+        "family": "series-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-2-benign-02",
+        "family": "question",
+        "expected": "benign",
+        "score": 9,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "question-form"
+        ]
+      },
+      {
+        "id": "m4-development-sports-2-benign-07",
+        "family": "lineup",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-development-sports-2-benign-09",
+        "family": "historical",
+        "expected": "benign",
+        "score": 8.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-sports-3-spoiler-04",
+        "family": "completed-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-3-spoiler-09",
+        "family": "series-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-3-benign-02",
+        "family": "question",
+        "expected": "benign",
+        "score": 9,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "question-form"
+        ]
+      },
+      {
+        "id": "m4-development-sports-3-benign-07",
+        "family": "lineup",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-development-sports-3-benign-09",
+        "family": "historical",
+        "expected": "benign",
+        "score": 8.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-sports-4-spoiler-09",
+        "family": "series-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-4-benign-02",
+        "family": "question",
+        "expected": "benign",
+        "score": 9,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "question-form"
+        ]
+      },
+      {
+        "id": "m4-development-sports-4-benign-03",
+        "family": "schedule",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-development-sports-4-benign-06",
+        "family": "injury",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-development-sports-4-benign-07",
+        "family": "lineup",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-development-sports-4-benign-09",
+        "family": "historical",
+        "expected": "benign",
+        "score": 8.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-sports-5-spoiler-04",
+        "family": "completed-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-5-spoiler-09",
+        "family": "series-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-sports-5-benign-02",
+        "family": "question",
+        "expected": "benign",
+        "score": 9,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "question-form"
+        ]
+      },
+      {
+        "id": "m4-development-sports-5-benign-07",
+        "family": "lineup",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-development-sports-5-benign-09",
+        "family": "historical",
+        "expected": "benign",
+        "score": 8.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-1-spoiler-08",
+        "family": "finale-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-1-spoiler-10",
+        "family": "implicit-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-1-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 7.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-competition-1-benign-07",
+        "family": "quoted-speculation",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-1-benign-10",
+        "family": "award-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-2-spoiler-08",
+        "family": "finale-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-2-spoiler-10",
+        "family": "implicit-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-2-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 7.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-competition-2-benign-07",
+        "family": "quoted-speculation",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-2-benign-10",
+        "family": "award-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-3-spoiler-08",
+        "family": "finale-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-3-spoiler-10",
+        "family": "implicit-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-3-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 7.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-competition-3-benign-07",
+        "family": "quoted-speculation",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-3-benign-10",
+        "family": "award-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-4-spoiler-08",
+        "family": "finale-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-4-spoiler-10",
+        "family": "implicit-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-4-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 7.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-competition-4-benign-07",
+        "family": "quoted-speculation",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-4-benign-10",
+        "family": "award-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-5-spoiler-08",
+        "family": "finale-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-5-spoiler-10",
+        "family": "implicit-result",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-development-competition-5-benign-01",
+        "family": "prediction",
+        "expected": "benign",
+        "score": 7.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "m4-development-competition-5-benign-07",
+        "family": "quoted-speculation",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-development-competition-5-benign-10",
+        "family": "award-collision",
+        "expected": "benign",
+        "score": 8,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "id": "m4-validation-tv-6-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": []
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-benign-09",
+        "family": "heldout-emotional-review",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": []
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-benign-09",
+        "family": "heldout-emotional-review",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": []
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-benign-09",
+        "family": "heldout-emotional-review",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": []
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-benign-09",
+        "family": "heldout-emotional-review",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": []
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-benign-09",
+        "family": "heldout-emotional-review",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": []
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-benign-09",
+        "family": "heldout-emotional-review",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": []
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-benign-09",
+        "family": "heldout-emotional-review",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": []
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 4,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-benign-09",
+        "family": "heldout-emotional-review",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-04",
+        "family": "heldout-score",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-05",
+        "family": "heldout-trophy",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-07",
+        "family": "heldout-decider",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-09",
+        "family": "heldout-series",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "future-prediction"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-10",
+        "family": "heldout-ceremony",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-benign-06",
+        "family": "heldout-health",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-benign-07",
+        "family": "heldout-roster",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-04",
+        "family": "heldout-score",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-05",
+        "family": "heldout-trophy",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-07",
+        "family": "heldout-decider",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-09",
+        "family": "heldout-series",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "future-prediction"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-10",
+        "family": "heldout-ceremony",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-benign-06",
+        "family": "heldout-health",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-benign-07",
+        "family": "heldout-roster",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-spoiler-02",
+        "family": "heldout-elimination",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-spoiler-07",
+        "family": "heldout-immunity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-benign-09",
+        "family": "heldout-title",
+        "expected": "benign",
+        "score": 8.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-spoiler-02",
+        "family": "heldout-elimination",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-spoiler-07",
+        "family": "heldout-immunity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-benign-09",
+        "family": "heldout-title",
+        "expected": "benign",
+        "score": 8.5,
+        "rulePath": "legacy-flat-score",
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      }
+    ]
+  }
+}

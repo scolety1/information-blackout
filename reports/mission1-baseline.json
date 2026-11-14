@@ -1,0 +1,3004 @@
+{
+  "schemaVersion": 1,
+  "label": "mission1-baseline",
+  "corpus": {
+    "total": 360,
+    "calibration": 288,
+    "heldout": 72,
+    "spoiler": 180,
+    "benign": 180,
+    "categories": [
+      "tv",
+      "movie",
+      "sports",
+      "game",
+      "book",
+      "competition",
+      "adversarial"
+    ]
+  },
+  "selectedThreshold": 7,
+  "metrics": {
+    "calibration": {
+      "total": 288,
+      "truePositives": 124,
+      "falsePositives": 32,
+      "trueNegatives": 112,
+      "falseNegatives": 20,
+      "precision": 0.7949,
+      "recall": 0.8611,
+      "f1": 0.8267,
+      "falsePositiveRate": 0.2222,
+      "falseNegativeRate": 0.1389
+    },
+    "heldout": {
+      "total": 72,
+      "truePositives": 27,
+      "falsePositives": 35,
+      "trueNegatives": 1,
+      "falseNegatives": 9,
+      "precision": 0.4355,
+      "recall": 0.75,
+      "f1": 0.551,
+      "falsePositiveRate": 0.9722,
+      "falseNegativeRate": 0.25
+    },
+    "all": {
+      "total": 360,
+      "truePositives": 151,
+      "falsePositives": 67,
+      "trueNegatives": 113,
+      "falseNegatives": 29,
+      "precision": 0.6927,
+      "recall": 0.8389,
+      "f1": 0.7588,
+      "falsePositiveRate": 0.3722,
+      "falseNegativeRate": 0.1611
+    }
+  },
+  "byCategory": {
+    "calibration": {
+      "adversarial": {
+        "total": 48,
+        "truePositives": 16,
+        "falsePositives": 20,
+        "trueNegatives": 4,
+        "falseNegatives": 8,
+        "precision": 0.4444,
+        "recall": 0.6667,
+        "f1": 0.5333,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.3333
+      },
+      "book": {
+        "total": 40,
+        "truePositives": 16,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 4,
+        "precision": 1,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.2
+      },
+      "competition": {
+        "total": 40,
+        "truePositives": 19,
+        "falsePositives": 4,
+        "trueNegatives": 16,
+        "falseNegatives": 1,
+        "precision": 0.8261,
+        "recall": 0.95,
+        "f1": 0.8837,
+        "falsePositiveRate": 0.2,
+        "falseNegativeRate": 0.05
+      },
+      "game": {
+        "total": 40,
+        "truePositives": 17,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 3,
+        "precision": 1,
+        "recall": 0.85,
+        "f1": 0.9189,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.15
+      },
+      "movie": {
+        "total": 40,
+        "truePositives": 16,
+        "falsePositives": 8,
+        "trueNegatives": 12,
+        "falseNegatives": 4,
+        "precision": 0.6667,
+        "recall": 0.8,
+        "f1": 0.7273,
+        "falsePositiveRate": 0.4,
+        "falseNegativeRate": 0.2
+      },
+      "sports": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "tv": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    },
+    "heldout": {
+      "adversarial": {
+        "total": 12,
+        "truePositives": 4,
+        "falsePositives": 5,
+        "trueNegatives": 1,
+        "falseNegatives": 2,
+        "precision": 0.4444,
+        "recall": 0.6667,
+        "f1": 0.5333,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.3333
+      },
+      "book": {
+        "total": 10,
+        "truePositives": 3,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0.375,
+        "recall": 0.6,
+        "f1": 0.4615,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.4
+      },
+      "competition": {
+        "total": 10,
+        "truePositives": 3,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0.375,
+        "recall": 0.6,
+        "f1": 0.4615,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.4
+      },
+      "game": {
+        "total": 10,
+        "truePositives": 3,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0.375,
+        "recall": 0.6,
+        "f1": 0.4615,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.4
+      },
+      "movie": {
+        "total": 10,
+        "truePositives": 4,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 0.4444,
+        "recall": 0.8,
+        "f1": 0.5714,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.2
+      },
+      "sports": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6667,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "tv": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6667,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      }
+    }
+  },
+  "byTag": {
+    "calibration": {
+      "adversarial": {
+        "total": 48,
+        "truePositives": 16,
+        "falsePositives": 20,
+        "trueNegatives": 4,
+        "falseNegatives": 8,
+        "precision": 0.4444,
+        "recall": 0.6667,
+        "f1": 0.5333,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.3333
+      },
+      "alias": {
+        "total": 32,
+        "truePositives": 8,
+        "falsePositives": 4,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 0.6667,
+        "recall": 1,
+        "f1": 0.8,
+        "falsePositiveRate": 0.1667,
+        "falseNegativeRate": 0
+      },
+      "alias-only": {
+        "total": 54,
+        "truePositives": 32,
+        "falsePositives": 4,
+        "trueNegatives": 4,
+        "falseNegatives": 14,
+        "precision": 0.8889,
+        "recall": 0.6957,
+        "f1": 0.7805,
+        "falsePositiveRate": 0.5,
+        "falseNegativeRate": 0.3043
+      },
+      "benign": {
+        "total": 144,
+        "truePositives": 0,
+        "falsePositives": 32,
+        "trueNegatives": 112,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.2222,
+        "falseNegativeRate": 0
+      },
+      "benign-alarming-language": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 8,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "benign-title-mention": {
+        "total": 72,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 72,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "betrayal": {
+        "total": 12,
+        "truePositives": 7,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 5,
+        "precision": 1,
+        "recall": 0.5833,
+        "f1": 0.7368,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.4167
+      },
+      "book": {
+        "total": 40,
+        "truePositives": 16,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 4,
+        "precision": 1,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.2
+      },
+      "casing-variant": {
+        "total": 12,
+        "truePositives": 4,
+        "falsePositives": 5,
+        "trueNegatives": 1,
+        "falseNegatives": 2,
+        "precision": 0.4444,
+        "recall": 0.6667,
+        "f1": 0.5333,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.3333
+      },
+      "casting-news": {
+        "total": 12,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 12,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "common-word-collision": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 8,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "competition": {
+        "total": 40,
+        "truePositives": 19,
+        "falsePositives": 4,
+        "trueNegatives": 16,
+        "falseNegatives": 1,
+        "precision": 0.8261,
+        "recall": 0.95,
+        "f1": 0.8837,
+        "falsePositiveRate": 0.2,
+        "falseNegativeRate": 0.05
+      },
+      "death": {
+        "total": 24,
+        "truePositives": 20,
+        "falsePositives": 4,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.8333,
+        "recall": 1,
+        "f1": 0.9091,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "elimination": {
+        "total": 12,
+        "truePositives": 11,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9167,
+        "f1": 0.9565,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0833
+      },
+      "emoji-noise": {
+        "total": 12,
+        "truePositives": 4,
+        "falsePositives": 5,
+        "trueNegatives": 1,
+        "falseNegatives": 2,
+        "precision": 0.4444,
+        "recall": 0.6667,
+        "f1": 0.5333,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.3333
+      },
+      "ending": {
+        "total": 32,
+        "truePositives": 30,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.9375,
+        "f1": 0.9677,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0625
+      },
+      "entity-collision": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 8,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "episode-schedule": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "explicit-warning": {
+        "total": 30,
+        "truePositives": 27,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 3,
+        "precision": 1,
+        "recall": 0.9,
+        "f1": 0.9474,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.1
+      },
+      "final-score": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "finale": {
+        "total": 8,
+        "truePositives": 4,
+        "falsePositives": 4,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6667,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "game": {
+        "total": 40,
+        "truePositives": 17,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 3,
+        "precision": 1,
+        "recall": 0.85,
+        "f1": 0.9189,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.15
+      },
+      "headline": {
+        "total": 30,
+        "truePositives": 30,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "hypothetical": {
+        "total": 12,
+        "truePositives": 0,
+        "falsePositives": 8,
+        "trueNegatives": 4,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.6667,
+        "falseNegativeRate": 0
+      },
+      "identity-reveal": {
+        "total": 24,
+        "truePositives": 24,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "indirect": {
+        "total": 12,
+        "truePositives": 9,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 3,
+        "precision": 1,
+        "recall": 0.75,
+        "f1": 0.8571,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.25
+      },
+      "metadata": {
+        "total": 30,
+        "truePositives": 0,
+        "falsePositives": 3,
+        "trueNegatives": 27,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.1,
+        "falseNegativeRate": 0
+      },
+      "movie": {
+        "total": 40,
+        "truePositives": 16,
+        "falsePositives": 8,
+        "trueNegatives": 12,
+        "falseNegatives": 4,
+        "precision": 0.6667,
+        "recall": 0.8,
+        "f1": 0.7273,
+        "falsePositiveRate": 0.4,
+        "falseNegativeRate": 0.2
+      },
+      "negation": {
+        "total": 16,
+        "truePositives": 0,
+        "falsePositives": 8,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.5,
+        "falseNegativeRate": 0
+      },
+      "plain": {
+        "total": 42,
+        "truePositives": 4,
+        "falsePositives": 8,
+        "trueNegatives": 28,
+        "falseNegatives": 2,
+        "precision": 0.3333,
+        "recall": 0.6667,
+        "f1": 0.4444,
+        "falsePositiveRate": 0.2222,
+        "falseNegativeRate": 0.3333
+      },
+      "plot-reveal": {
+        "total": 24,
+        "truePositives": 15,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 9,
+        "precision": 1,
+        "recall": 0.625,
+        "f1": 0.7692,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.375
+      },
+      "prediction": {
+        "total": 12,
+        "truePositives": 0,
+        "falsePositives": 4,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.3333,
+        "falseNegativeRate": 0
+      },
+      "punctuation-variant": {
+        "total": 12,
+        "truePositives": 4,
+        "falsePositives": 5,
+        "trueNegatives": 1,
+        "falseNegatives": 2,
+        "precision": 0.4444,
+        "recall": 0.6667,
+        "f1": 0.5333,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.3333
+      },
+      "question": {
+        "total": 34,
+        "truePositives": 0,
+        "falsePositives": 3,
+        "trueNegatives": 31,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.0882,
+        "falseNegativeRate": 0
+      },
+      "quoted-statement": {
+        "total": 30,
+        "truePositives": 0,
+        "falsePositives": 3,
+        "trueNegatives": 27,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.1,
+        "falseNegativeRate": 0
+      },
+      "relationship-outcome": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "release-information": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "result": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "score-word": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 8,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "social": {
+        "total": 42,
+        "truePositives": 31,
+        "falsePositives": 5,
+        "trueNegatives": 1,
+        "falseNegatives": 5,
+        "precision": 0.8611,
+        "recall": 0.8611,
+        "f1": 0.8611,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.1389
+      },
+      "spoiler": {
+        "total": 144,
+        "truePositives": 124,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 20,
+        "precision": 1,
+        "recall": 0.8611,
+        "f1": 0.9254,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.1389
+      },
+      "spoiler-free-review": {
+        "total": 16,
+        "truePositives": 0,
+        "falsePositives": 4,
+        "trueNegatives": 12,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.25,
+        "falseNegativeRate": 0
+      },
+      "sports": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "survival": {
+        "total": 8,
+        "truePositives": 7,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.875,
+        "f1": 0.9333,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.125
+      },
+      "title-absent": {
+        "total": 38,
+        "truePositives": 28,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 10,
+        "precision": 1,
+        "recall": 0.7368,
+        "f1": 0.8485,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.2632
+      },
+      "title-present": {
+        "total": 90,
+        "truePositives": 84,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 6,
+        "precision": 1,
+        "recall": 0.9333,
+        "f1": 0.9655,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0667
+      },
+      "tv": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "twist": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "winner": {
+        "total": 16,
+        "truePositives": 12,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 4,
+        "precision": 1,
+        "recall": 0.75,
+        "f1": 0.8571,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.25
+      }
+    },
+    "heldout": {
+      "adversarial": {
+        "total": 12,
+        "truePositives": 4,
+        "falsePositives": 5,
+        "trueNegatives": 1,
+        "falseNegatives": 2,
+        "precision": 0.4444,
+        "recall": 0.6667,
+        "f1": 0.5333,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.3333
+      },
+      "alias": {
+        "total": 8,
+        "truePositives": 2,
+        "falsePositives": 6,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.25,
+        "recall": 1,
+        "f1": 0.4,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "alias-only": {
+        "total": 36,
+        "truePositives": 25,
+        "falsePositives": 1,
+        "trueNegatives": 1,
+        "falseNegatives": 9,
+        "precision": 0.9615,
+        "recall": 0.7353,
+        "f1": 0.8333,
+        "falsePositiveRate": 0.5,
+        "falseNegativeRate": 0.2647
+      },
+      "benign": {
+        "total": 36,
+        "truePositives": 0,
+        "falsePositives": 35,
+        "trueNegatives": 1,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.9722,
+        "falseNegativeRate": 0
+      },
+      "benign-alarming-language": {
+        "total": 32,
+        "truePositives": 0,
+        "falsePositives": 32,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "benign-title-mention": {
+        "total": 18,
+        "truePositives": 0,
+        "falsePositives": 18,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "book": {
+        "total": 10,
+        "truePositives": 3,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0.375,
+        "recall": 0.6,
+        "f1": 0.4615,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.4
+      },
+      "competition": {
+        "total": 10,
+        "truePositives": 3,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0.375,
+        "recall": 0.6,
+        "f1": 0.4615,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.4
+      },
+      "death": {
+        "total": 6,
+        "truePositives": 5,
+        "falsePositives": 1,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.8333,
+        "recall": 1,
+        "f1": 0.9091,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "emoji-noise": {
+        "total": 60,
+        "truePositives": 23,
+        "falsePositives": 30,
+        "trueNegatives": 0,
+        "falseNegatives": 7,
+        "precision": 0.434,
+        "recall": 0.7667,
+        "f1": 0.5543,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.2333
+      },
+      "ending": {
+        "total": 8,
+        "truePositives": 7,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.875,
+        "f1": 0.9333,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.125
+      },
+      "game": {
+        "total": 10,
+        "truePositives": 3,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0.375,
+        "recall": 0.6,
+        "f1": 0.4615,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.4
+      },
+      "heldout-style": {
+        "total": 72,
+        "truePositives": 27,
+        "falsePositives": 35,
+        "trueNegatives": 1,
+        "falseNegatives": 9,
+        "precision": 0.4355,
+        "recall": 0.75,
+        "f1": 0.551,
+        "falsePositiveRate": 0.9722,
+        "falseNegativeRate": 0.25
+      },
+      "identity-reveal": {
+        "total": 6,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.8333,
+        "f1": 0.9091,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.1667
+      },
+      "movie": {
+        "total": 10,
+        "truePositives": 4,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 0.4444,
+        "recall": 0.8,
+        "f1": 0.5714,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0.2
+      },
+      "plot-reveal": {
+        "total": 6,
+        "truePositives": 3,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 3,
+        "precision": 1,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.5
+      },
+      "quoted-statement": {
+        "total": 12,
+        "truePositives": 4,
+        "falsePositives": 5,
+        "trueNegatives": 1,
+        "falseNegatives": 2,
+        "precision": 0.4444,
+        "recall": 0.6667,
+        "f1": 0.5333,
+        "falsePositiveRate": 0.8333,
+        "falseNegativeRate": 0.3333
+      },
+      "result": {
+        "total": 5,
+        "truePositives": 3,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.6,
+        "f1": 0.75,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.4
+      },
+      "spoiler": {
+        "total": 36,
+        "truePositives": 27,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 9,
+        "precision": 1,
+        "recall": 0.75,
+        "f1": 0.8571,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.25
+      },
+      "sports": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6667,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "title-absent": {
+        "total": 32,
+        "truePositives": 24,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 1,
+        "recall": 0.75,
+        "f1": 0.8571,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.25
+      },
+      "tv": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 5,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0.5,
+        "recall": 1,
+        "f1": 0.6667,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      }
+    }
+  },
+  "thresholdAnalysis": {
+    "5": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 124,
+        "falsePositives": 32,
+        "trueNegatives": 112,
+        "falseNegatives": 20,
+        "precision": 0.7949,
+        "recall": 0.8611,
+        "f1": 0.8267,
+        "falsePositiveRate": 0.2222,
+        "falseNegativeRate": 0.1389
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 27,
+        "falsePositives": 35,
+        "trueNegatives": 1,
+        "falseNegatives": 9,
+        "precision": 0.4355,
+        "recall": 0.75,
+        "f1": 0.551,
+        "falsePositiveRate": 0.9722,
+        "falseNegativeRate": 0.25
+      }
+    },
+    "6": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 124,
+        "falsePositives": 32,
+        "trueNegatives": 112,
+        "falseNegatives": 20,
+        "precision": 0.7949,
+        "recall": 0.8611,
+        "f1": 0.8267,
+        "falsePositiveRate": 0.2222,
+        "falseNegativeRate": 0.1389
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 27,
+        "falsePositives": 35,
+        "trueNegatives": 1,
+        "falseNegatives": 9,
+        "precision": 0.4355,
+        "recall": 0.75,
+        "f1": 0.551,
+        "falsePositiveRate": 0.9722,
+        "falseNegativeRate": 0.25
+      }
+    },
+    "7": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 124,
+        "falsePositives": 32,
+        "trueNegatives": 112,
+        "falseNegatives": 20,
+        "precision": 0.7949,
+        "recall": 0.8611,
+        "f1": 0.8267,
+        "falsePositiveRate": 0.2222,
+        "falseNegativeRate": 0.1389
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 27,
+        "falsePositives": 35,
+        "trueNegatives": 1,
+        "falseNegatives": 9,
+        "precision": 0.4355,
+        "recall": 0.75,
+        "f1": 0.551,
+        "falsePositiveRate": 0.9722,
+        "falseNegativeRate": 0.25
+      }
+    },
+    "8": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 101,
+        "falsePositives": 16,
+        "trueNegatives": 128,
+        "falseNegatives": 43,
+        "precision": 0.8632,
+        "recall": 0.7014,
+        "f1": 0.7739,
+        "falsePositiveRate": 0.1111,
+        "falseNegativeRate": 0.2986
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 21,
+        "falsePositives": 34,
+        "trueNegatives": 2,
+        "falseNegatives": 15,
+        "precision": 0.3818,
+        "recall": 0.5833,
+        "f1": 0.4615,
+        "falsePositiveRate": 0.9444,
+        "falseNegativeRate": 0.4167
+      }
+    },
+    "9": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 90,
+        "falsePositives": 16,
+        "trueNegatives": 128,
+        "falseNegatives": 54,
+        "precision": 0.8491,
+        "recall": 0.625,
+        "f1": 0.72,
+        "falsePositiveRate": 0.1111,
+        "falseNegativeRate": 0.375
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 18,
+        "falsePositives": 7,
+        "trueNegatives": 29,
+        "falseNegatives": 18,
+        "precision": 0.72,
+        "recall": 0.5,
+        "f1": 0.5902,
+        "falsePositiveRate": 0.1944,
+        "falseNegativeRate": 0.5
+      }
+    }
+  },
+  "failures": {
+    "calibration": {
+      "falsePositives": [
+        {
+          "id": "movie-benign-03",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "creator-news",
+            "alias",
+            "plain"
+          ],
+          "score": 7,
+          "reasons": [
+            "protected term",
+            "multiple protected terms"
+          ]
+        },
+        {
+          "id": "movie-benign-05",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "spoiler-free-review",
+            "score-word",
+            "plain"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "movie-benign-08",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "creator-news",
+            "alias",
+            "metadata"
+          ],
+          "score": 7,
+          "reasons": [
+            "protected term",
+            "multiple protected terms"
+          ]
+        },
+        {
+          "id": "movie-benign-10",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "spoiler-free-review",
+            "score-word",
+            "metadata"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "movie-benign-13",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "creator-news",
+            "alias",
+            "question"
+          ],
+          "score": 7,
+          "reasons": [
+            "protected term",
+            "multiple protected terms"
+          ]
+        },
+        {
+          "id": "movie-benign-15",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "spoiler-free-review",
+            "score-word",
+            "question"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "movie-benign-18",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "creator-news",
+            "alias",
+            "quoted-statement"
+          ],
+          "score": 7,
+          "reasons": [
+            "protected term",
+            "multiple protected terms"
+          ]
+        },
+        {
+          "id": "movie-benign-20",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "spoiler-free-review",
+            "score-word",
+            "quoted-statement"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "competition-benign-05",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "prediction",
+            "hypothetical",
+            "plain"
+          ],
+          "score": 7,
+          "reasons": [
+            "protected term",
+            "multiple protected terms"
+          ]
+        },
+        {
+          "id": "competition-benign-10",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "prediction",
+            "hypothetical",
+            "metadata"
+          ],
+          "score": 7,
+          "reasons": [
+            "protected term",
+            "multiple protected terms"
+          ]
+        },
+        {
+          "id": "competition-benign-15",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "prediction",
+            "hypothetical",
+            "question"
+          ],
+          "score": 7,
+          "reasons": [
+            "protected term",
+            "multiple protected terms"
+          ]
+        },
+        {
+          "id": "competition-benign-20",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "prediction",
+            "hypothetical",
+            "quoted-statement"
+          ],
+          "score": 7,
+          "reasons": [
+            "protected term",
+            "multiple protected terms"
+          ]
+        },
+        {
+          "id": "adversarial-benign-07",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "death",
+            "entity-collision",
+            "plain"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-08",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "score-word",
+            "entity-collision",
+            "plain"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-09",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "benign-alarming-language",
+            "plain"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-11",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "hypothetical",
+            "finale",
+            "benign-alarming-language",
+            "plain"
+          ],
+          "score": 10.75,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-12",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "quoted-rumor",
+            "alias-only",
+            "plain"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-19",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "death",
+            "entity-collision",
+            "social"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-20",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "score-word",
+            "entity-collision",
+            "social"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-21",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "benign-alarming-language",
+            "social"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-23",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "hypothetical",
+            "finale",
+            "benign-alarming-language",
+            "social"
+          ],
+          "score": 10.75,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-24",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "quoted-rumor",
+            "alias-only",
+            "social"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-31",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "death",
+            "entity-collision",
+            "casing-variant",
+            "punctuation-variant"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-32",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "score-word",
+            "entity-collision",
+            "casing-variant",
+            "punctuation-variant"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-33",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "benign-alarming-language",
+            "casing-variant",
+            "punctuation-variant"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-35",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "hypothetical",
+            "finale",
+            "benign-alarming-language",
+            "casing-variant",
+            "punctuation-variant"
+          ],
+          "score": 10.75,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-36",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "quoted-rumor",
+            "alias-only",
+            "casing-variant",
+            "punctuation-variant"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-43",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "death",
+            "entity-collision",
+            "emoji-noise"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-44",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "score-word",
+            "entity-collision",
+            "emoji-noise"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-45",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "benign-alarming-language",
+            "emoji-noise"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-47",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "hypothetical",
+            "finale",
+            "benign-alarming-language",
+            "emoji-noise"
+          ],
+          "score": 10.75,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-48",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "quoted-rumor",
+            "alias-only",
+            "emoji-noise"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        }
+      ],
+      "falseNegatives": [
+        {
+          "id": "movie-spoiler-09",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "spoiler",
+            "post-credits",
+            "plot-reveal",
+            "explicit-warning",
+            "title-present"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "movie-spoiler-13",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "spoiler",
+            "survival",
+            "ending",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 4,
+          "reasons": [
+            "protected term",
+            "repeated protected term"
+          ]
+        },
+        {
+          "id": "movie-spoiler-14",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "spoiler",
+            "post-credits",
+            "plot-reveal",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "movie-spoiler-19",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "spoiler",
+            "post-credits",
+            "plot-reveal",
+            "social",
+            "title-present"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "game-spoiler-09",
+          "category": "game",
+          "tags": [
+            "game",
+            "spoiler",
+            "secret-area",
+            "plot-reveal",
+            "explicit-warning",
+            "title-present"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "game-spoiler-14",
+          "category": "game",
+          "tags": [
+            "game",
+            "spoiler",
+            "secret-area",
+            "plot-reveal",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "game-spoiler-19",
+          "category": "game",
+          "tags": [
+            "game",
+            "spoiler",
+            "secret-area",
+            "plot-reveal",
+            "social",
+            "title-present"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "book-spoiler-09",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "plot-reveal",
+            "indirect",
+            "explicit-warning",
+            "title-present"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "book-spoiler-13",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "betrayal",
+            "ending",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 4,
+          "reasons": [
+            "protected term",
+            "repeated protected term"
+          ]
+        },
+        {
+          "id": "book-spoiler-14",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "plot-reveal",
+            "indirect",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "book-spoiler-19",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "plot-reveal",
+            "indirect",
+            "social",
+            "title-present"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "competition-spoiler-15",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "spoiler",
+            "secret-advantage",
+            "elimination",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 4,
+          "reasons": [
+            "protected term",
+            "repeated protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-03",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "betrayal",
+            "alias-only",
+            "title-absent",
+            "plain"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-06",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "winner",
+            "alias-only",
+            "plain"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-15",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "betrayal",
+            "alias-only",
+            "title-absent",
+            "social"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-18",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "winner",
+            "alias-only",
+            "social"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-27",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "betrayal",
+            "alias-only",
+            "title-absent",
+            "casing-variant",
+            "punctuation-variant"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-30",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "winner",
+            "alias-only",
+            "casing-variant",
+            "punctuation-variant"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-39",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "betrayal",
+            "alias-only",
+            "title-absent",
+            "emoji-noise"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-42",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "winner",
+            "alias-only",
+            "emoji-noise"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        }
+      ]
+    },
+    "heldout": {
+      "falsePositives": [
+        {
+          "id": "tv-benign-21",
+          "category": "tv",
+          "tags": [
+            "tv",
+            "benign",
+            "streaming-availability",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "tv-benign-22",
+          "category": "tv",
+          "tags": [
+            "tv",
+            "benign",
+            "casting-news",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "tv-benign-23",
+          "category": "tv",
+          "tags": [
+            "tv",
+            "benign",
+            "episode-schedule",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "tv-benign-24",
+          "category": "tv",
+          "tags": [
+            "tv",
+            "benign",
+            "spoiler-free-review",
+            "negation",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "tv-benign-25",
+          "category": "tv",
+          "tags": [
+            "tv",
+            "benign",
+            "benign-title-mention",
+            "short-snippet",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "movie-benign-21",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "release-information",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "movie-benign-22",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "box-office",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "movie-benign-23",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "creator-news",
+            "alias",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 12,
+          "reasons": [
+            "protected term",
+            "multiple protected terms",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "movie-benign-24",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "trailer-craft",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "movie-benign-25",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "benign",
+            "spoiler-free-review",
+            "score-word",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 10,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "sports-benign-21",
+          "category": "sports",
+          "tags": [
+            "sports",
+            "benign",
+            "schedule",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "sports-benign-22",
+          "category": "sports",
+          "tags": [
+            "sports",
+            "benign",
+            "trade-news",
+            "alias",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "sports-benign-23",
+          "category": "sports",
+          "tags": [
+            "sports",
+            "benign",
+            "prediction",
+            "hypothetical",
+            "alias",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "sports-benign-24",
+          "category": "sports",
+          "tags": [
+            "sports",
+            "benign",
+            "preview",
+            "betting-prediction",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "sports-benign-25",
+          "category": "sports",
+          "tags": [
+            "sports",
+            "benign",
+            "historical-reference",
+            "alias",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "game-benign-21",
+          "category": "game",
+          "tags": [
+            "game",
+            "benign",
+            "patch-notes",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "game-benign-22",
+          "category": "game",
+          "tags": [
+            "game",
+            "benign",
+            "gameplay-tip",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "game-benign-23",
+          "category": "game",
+          "tags": [
+            "game",
+            "benign",
+            "release-information",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "game-benign-24",
+          "category": "game",
+          "tags": [
+            "game",
+            "benign",
+            "casting-news",
+            "alias",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "game-benign-25",
+          "category": "game",
+          "tags": [
+            "game",
+            "benign",
+            "technical-review",
+            "abbreviation",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "book-benign-21",
+          "category": "book",
+          "tags": [
+            "book",
+            "benign",
+            "publication-information",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "book-benign-22",
+          "category": "book",
+          "tags": [
+            "book",
+            "benign",
+            "author-discussion",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "book-benign-23",
+          "category": "book",
+          "tags": [
+            "book",
+            "benign",
+            "spoiler-free-review",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "book-benign-24",
+          "category": "book",
+          "tags": [
+            "book",
+            "benign",
+            "availability",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "book-benign-25",
+          "category": "book",
+          "tags": [
+            "book",
+            "benign",
+            "edition-news",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "competition-benign-21",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "episode-schedule",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "competition-benign-22",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "casting-news",
+            "benign-title-mention",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "competition-benign-23",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "contestant-news",
+            "alias",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "competition-benign-24",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "spoiler-free-review",
+            "negation",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 8,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "competition-benign-25",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "benign",
+            "prediction",
+            "hypothetical",
+            "heldout-style",
+            "emoji-noise",
+            "benign-alarming-language"
+          ],
+          "score": 12,
+          "reasons": [
+            "protected term",
+            "multiple protected terms",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-55",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "death",
+            "entity-collision",
+            "heldout-style",
+            "quoted-statement"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-56",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "common-word-collision",
+            "score-word",
+            "entity-collision",
+            "heldout-style",
+            "quoted-statement"
+          ],
+          "score": 7.5,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-57",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "benign-alarming-language",
+            "heldout-style",
+            "quoted-statement"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-59",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "hypothetical",
+            "finale",
+            "benign-alarming-language",
+            "heldout-style",
+            "quoted-statement"
+          ],
+          "score": 10.75,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        },
+        {
+          "id": "adversarial-benign-60",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "benign",
+            "negation",
+            "quoted-rumor",
+            "alias-only",
+            "heldout-style",
+            "quoted-statement"
+          ],
+          "score": 9,
+          "reasons": [
+            "protected term",
+            "spoiler indicator language",
+            "close term/indicator proximity",
+            "dense local context"
+          ]
+        }
+      ],
+      "falseNegatives": [
+        {
+          "id": "movie-spoiler-24",
+          "category": "movie",
+          "tags": [
+            "movie",
+            "spoiler",
+            "post-credits",
+            "plot-reveal",
+            "heldout-style",
+            "emoji-noise",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "game-spoiler-24",
+          "category": "game",
+          "tags": [
+            "game",
+            "spoiler",
+            "secret-area",
+            "plot-reveal",
+            "heldout-style",
+            "emoji-noise",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "game-spoiler-25",
+          "category": "game",
+          "tags": [
+            "game",
+            "spoiler",
+            "identity-reveal",
+            "twist",
+            "heldout-style",
+            "emoji-noise",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 4,
+          "reasons": [
+            "protected term",
+            "repeated protected term"
+          ]
+        },
+        {
+          "id": "book-spoiler-24",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "plot-reveal",
+            "indirect",
+            "heldout-style",
+            "emoji-noise",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "book-spoiler-25",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "survival",
+            "ending",
+            "heldout-style",
+            "emoji-noise",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 4,
+          "reasons": [
+            "protected term",
+            "repeated protected term"
+          ]
+        },
+        {
+          "id": "competition-spoiler-21",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "spoiler",
+            "winner",
+            "result",
+            "heldout-style",
+            "emoji-noise",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 4,
+          "reasons": [
+            "protected term",
+            "repeated protected term"
+          ]
+        },
+        {
+          "id": "competition-spoiler-23",
+          "category": "competition",
+          "tags": [
+            "competition",
+            "spoiler",
+            "finalist-reveal",
+            "result",
+            "heldout-style",
+            "emoji-noise",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 4,
+          "reasons": [
+            "protected term",
+            "repeated protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-51",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "betrayal",
+            "alias-only",
+            "title-absent",
+            "heldout-style",
+            "quoted-statement"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "adversarial-spoiler-54",
+          "category": "adversarial",
+          "tags": [
+            "adversarial",
+            "spoiler",
+            "winner",
+            "alias-only",
+            "heldout-style",
+            "quoted-statement"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        }
+      ]
+    }
+  }
+}

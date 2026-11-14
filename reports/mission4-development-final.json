@@ -1,0 +1,2817 @@
+{
+  "schemaVersion": 1,
+  "label": "detector-v0.4-structured-locked",
+  "detectorVersion": "detector-v0.4-structured",
+  "detectorSourceSha256": "f004e26f2cfaec92699d1e14d59a90965dce58d90a120d01832253c1a48caa8f",
+  "corpusSha256": "9efe52087ad198a6670a181ee4f5150b9077dce41fcf8a0c5aed2d896eb60be0",
+  "corpus": {
+    "total": 840,
+    "development": 600,
+    "validation": 240,
+    "spoiler": 420,
+    "benign": 420
+  },
+  "metrics": {
+    "development": {
+      "total": 600,
+      "truePositives": 300,
+      "falsePositives": 1,
+      "trueNegatives": 299,
+      "falseNegatives": 0,
+      "precision": 0.9967,
+      "recall": 1,
+      "f1": 0.9983,
+      "falsePositiveRate": 0.0033,
+      "falseNegativeRate": 0
+    },
+    "validation": {
+      "total": 240,
+      "truePositives": 15,
+      "falsePositives": 4,
+      "trueNegatives": 116,
+      "falseNegatives": 105,
+      "precision": 0.7895,
+      "recall": 0.125,
+      "f1": 0.2158,
+      "falsePositiveRate": 0.0333,
+      "falseNegativeRate": 0.875
+    },
+    "overall": {
+      "total": 840,
+      "truePositives": 315,
+      "falsePositives": 5,
+      "trueNegatives": 415,
+      "falseNegatives": 105,
+      "precision": 0.9844,
+      "recall": 0.75,
+      "f1": 0.8514,
+      "falsePositiveRate": 0.0119,
+      "falseNegativeRate": 0.25
+    }
+  },
+  "byCategory": {
+    "development": {
+      "book": {
+        "total": 100,
+        "truePositives": 50,
+        "falsePositives": 0,
+        "trueNegatives": 50,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "competition": {
+        "total": 100,
+        "truePositives": 50,
+        "falsePositives": 1,
+        "trueNegatives": 49,
+        "falseNegatives": 0,
+        "precision": 0.9804,
+        "recall": 1,
+        "f1": 0.9901,
+        "falsePositiveRate": 0.02,
+        "falseNegativeRate": 0
+      },
+      "game": {
+        "total": 100,
+        "truePositives": 50,
+        "falsePositives": 0,
+        "trueNegatives": 50,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "movie": {
+        "total": 100,
+        "truePositives": 50,
+        "falsePositives": 0,
+        "trueNegatives": 50,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "sports": {
+        "total": 100,
+        "truePositives": 50,
+        "falsePositives": 0,
+        "trueNegatives": 50,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "tv": {
+        "total": 100,
+        "truePositives": 50,
+        "falsePositives": 0,
+        "trueNegatives": 50,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    },
+    "validation": {
+      "book": {
+        "total": 40,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 20,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "competition": {
+        "total": 40,
+        "truePositives": 8,
+        "falsePositives": 4,
+        "trueNegatives": 16,
+        "falseNegatives": 12,
+        "precision": 0.6667,
+        "recall": 0.4,
+        "f1": 0.5,
+        "falsePositiveRate": 0.2,
+        "falseNegativeRate": 0.6
+      },
+      "game": {
+        "total": 40,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 20,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "movie": {
+        "total": 40,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 20,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "sports": {
+        "total": 40,
+        "truePositives": 7,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 13,
+        "precision": 1,
+        "recall": 0.35,
+        "f1": 0.5185,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.65
+      },
+      "tv": {
+        "total": 40,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 20,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      }
+    }
+  },
+  "byFamily": {
+    "development": {
+      "award-collision": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "betrayal": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "betting": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "boss-identity": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "casting": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "champion": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "completed-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "conditional": {
+        "total": 25,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 25,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "confirmed-death": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "confirmed-survival": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "confirmed-twist": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "confirmed-winner": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "elimination": {
+        "total": 10,
+        "truePositives": 10,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "ending": {
+        "total": 15,
+        "truePositives": 15,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "fantasy": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "final-score": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "finale-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "finalists": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "hidden-location": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "historic-current-article": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "historical": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "hypothetical": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "identity": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "identity-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "immunity-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "implication": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "implicit-result": {
+        "total": 10,
+        "truePositives": 10,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "injury": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "language-collision": {
+        "total": 15,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 15,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "lineup": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "live-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "metadata": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 1,
+        "trueNegatives": 19,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0.05,
+        "falseNegativeRate": 0
+      },
+      "overtime-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "patch-notes": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "post-credit": {
+        "total": 15,
+        "truePositives": 15,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "prediction": {
+        "total": 30,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 30,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "preview": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "question": {
+        "total": 30,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 30,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "quoted-speculation": {
+        "total": 25,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 25,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "relationship": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "review": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "review-language": {
+        "total": 15,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 15,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "review-score": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "runner-up": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "schedule": {
+        "total": 10,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 10,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "score-collision": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "secret-area": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "sent-home": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "series-result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "spoiler-free-review": {
+        "total": 20,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "strategy": {
+        "total": 5,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "theory": {
+        "total": 25,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 25,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "winner": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    },
+    "validation": {
+      "heldout-allegiance": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-archive": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-attributed-guess": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-award": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-casting": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-causality": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-ceremony": {
+        "total": 4,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 4,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-conditional": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-counterfactual": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-crown": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-decider": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-departure": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-distribution": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-elimination": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-emotional-review": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-ending": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-exit": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-extra-time": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-fan-hypothesis": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-fantasy": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-finalists": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-fixture": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-forecast": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-health": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-identity": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-imagination": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-immunity": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-implication": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-interrogative": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-kinship": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-live": {
+        "total": 2,
+        "truePositives": 1,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.5
+      },
+      "heldout-location": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-market": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-nondisclosure-review": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-obituary": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-pick": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-prediction": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 2,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 0
+      },
+      "heldout-preview": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-question": {
+        "total": 4,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 4,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-rating": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-result": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-review": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-roster": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-rumor": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-runner-up": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-schedule": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-score": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-series": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-stinger": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-survival": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 8,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-theory": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-title": {
+        "total": 4,
+        "truePositives": 0,
+        "falsePositives": 2,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 1,
+        "falseNegativeRate": 1
+      },
+      "heldout-trophy": {
+        "total": 2,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 1
+      },
+      "heldout-unmasking": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-verdict": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-winner": {
+        "total": 2,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-word-sense": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    }
+  },
+  "falsePositiveTaxonomy": {
+    "heldout-prediction": 2,
+    "heldout-title": 2,
+    "metadata": 1
+  },
+  "failures": {
+    "development": [
+      {
+        "id": "m4-development-competition-4-benign-09",
+        "family": "metadata",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "asserted-reveal",
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "future-or-preview",
+          "metadata",
+          "asserted-reveal"
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "id": "m4-validation-tv-6-spoiler-01",
+        "family": "heldout-obituary",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-03",
+        "family": "heldout-allegiance",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-04",
+        "family": "heldout-identity",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-06",
+        "family": "heldout-ending",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "no-topic",
+        "reasons": [
+          "no-topic"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-09",
+        "family": "heldout-causality",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-6-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-01",
+        "family": "heldout-obituary",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-03",
+        "family": "heldout-allegiance",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-04",
+        "family": "heldout-identity",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-06",
+        "family": "heldout-ending",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "no-topic",
+        "reasons": [
+          "no-topic"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-09",
+        "family": "heldout-causality",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-tv-7-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-01",
+        "family": "heldout-obituary",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-03",
+        "family": "heldout-allegiance",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-04",
+        "family": "heldout-identity",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-06",
+        "family": "heldout-ending",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "no-topic",
+        "reasons": [
+          "no-topic"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-09",
+        "family": "heldout-causality",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-6-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-01",
+        "family": "heldout-obituary",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-03",
+        "family": "heldout-allegiance",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-04",
+        "family": "heldout-identity",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-06",
+        "family": "heldout-ending",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "no-topic",
+        "reasons": [
+          "no-topic"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-09",
+        "family": "heldout-causality",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-movie-7-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-01",
+        "family": "heldout-obituary",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-03",
+        "family": "heldout-allegiance",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-04",
+        "family": "heldout-identity",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-06",
+        "family": "heldout-ending",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "no-topic",
+        "reasons": [
+          "no-topic"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-09",
+        "family": "heldout-causality",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-6-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-01",
+        "family": "heldout-obituary",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-03",
+        "family": "heldout-allegiance",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-04",
+        "family": "heldout-identity",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-06",
+        "family": "heldout-ending",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "no-topic",
+        "reasons": [
+          "no-topic"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-09",
+        "family": "heldout-causality",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-book-7-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-01",
+        "family": "heldout-obituary",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-03",
+        "family": "heldout-allegiance",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-04",
+        "family": "heldout-identity",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-06",
+        "family": "heldout-ending",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "no-topic",
+        "reasons": [
+          "no-topic"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-09",
+        "family": "heldout-causality",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-6-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-01",
+        "family": "heldout-obituary",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-02",
+        "family": "heldout-survival",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-03",
+        "family": "heldout-allegiance",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-04",
+        "family": "heldout-identity",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-05",
+        "family": "heldout-kinship",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-06",
+        "family": "heldout-ending",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-07",
+        "family": "heldout-stinger",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-08",
+        "family": "heldout-location",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "no-topic",
+        "reasons": [
+          "no-topic"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-09",
+        "family": "heldout-causality",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-game-7-spoiler-10",
+        "family": "heldout-implication",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-02",
+        "family": "heldout-title",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-04",
+        "family": "heldout-score",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-05",
+        "family": "heldout-trophy",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-07",
+        "family": "heldout-decider",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-09",
+        "family": "heldout-series",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-6-spoiler-10",
+        "family": "heldout-ceremony",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-02",
+        "family": "heldout-title",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-04",
+        "family": "heldout-score",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-05",
+        "family": "heldout-trophy",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-06",
+        "family": "heldout-live",
+        "expected": "spoiler",
+        "score": 1,
+        "rulePath": "collision-safeguard",
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "short-or-common-word-alias",
+          "collision-safeguard"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-07",
+        "family": "heldout-decider",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-09",
+        "family": "heldout-series",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-sports-7-spoiler-10",
+        "family": "heldout-ceremony",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-spoiler-02",
+        "family": "heldout-elimination",
+        "expected": "spoiler",
+        "score": 0,
+        "rulePath": "collision-safeguard",
+        "reasons": [
+          "protected term",
+          "short-or-common-word-alias",
+          "collision-safeguard"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-spoiler-03",
+        "family": "heldout-finalists",
+        "expected": "spoiler",
+        "score": 5.5,
+        "rulePath": "benign-epistemic-context",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-spoiler-05",
+        "family": "heldout-departure",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-spoiler-06",
+        "family": "heldout-runner-up",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-spoiler-07",
+        "family": "heldout-immunity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-spoiler-10",
+        "family": "heldout-ceremony",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-benign-01",
+        "family": "heldout-prediction",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "asserted-reveal",
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-6-benign-09",
+        "family": "heldout-title",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "asserted-reveal",
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-spoiler-02",
+        "family": "heldout-elimination",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-spoiler-03",
+        "family": "heldout-finalists",
+        "expected": "spoiler",
+        "score": 5.5,
+        "rulePath": "benign-epistemic-context",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-spoiler-05",
+        "family": "heldout-departure",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-spoiler-06",
+        "family": "heldout-runner-up",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-spoiler-07",
+        "family": "heldout-immunity",
+        "expected": "spoiler",
+        "score": 3,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-spoiler-10",
+        "family": "heldout-ceremony",
+        "expected": "spoiler",
+        "score": 7,
+        "rulePath": "insufficient-reveal-evidence",
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-benign-01",
+        "family": "heldout-prediction",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "asserted-reveal",
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "m4-validation-competition-7-benign-09",
+        "family": "heldout-title",
+        "expected": "benign",
+        "score": 7,
+        "rulePath": "asserted-reveal",
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      }
+    ]
+  }
+}

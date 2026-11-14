@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mission 3 local semantic lab</title>
+    <style>
+      body { max-width: 760px; margin: 2rem auto; font-family: system-ui, sans-serif; }
+      article { min-height: 4rem; margin: 1rem 0; padding: 1rem; border: 1px solid #bbb; }
+    </style>
+  </head>
+  <body>
+    <h1>Mission 3 local semantic lab</h1>
+    <article id="indirect-spoiler" data-semantic-candidate data-topic-name="The Elm Signal: Chronicles" data-topic-aliases="Elm TV Finn Umber|Elm TV Wren Moss|Elm tv Circle">
+      Elm TV Finn Umber: The orders blamed on a council use Elm TV Finn Umber's childhood cipher on every page.
+    </article>
+    <article id="benign-theory" data-semantic-candidate data-topic-name="The Flint Parallax" data-topic-aliases="Greta Venn|Xara North|Flint Circle">
+      The Flint Parallax: A fan asks whether the letters might be in Greta Venn's hand, then calls the idea unsupported.
+    </article>
+    <article id="explicit-spoiler" data-semantic-candidate data-topic-name="The Elm Signal: Chronicles" data-topic-aliases="Elm TV Finn Umber|Elm TV Wren Moss|Elm tv Circle">
+      The Elm Signal: Chronicles ending reveals Elm TV Finn Umber as the mastermind who betrayed Elm tv Circle.
+    </article>
+    <button id="add-burst" type="button">Add ambiguous burst</button>
+    <section id="burst" aria-label="Burst feed"></section>
+    <script>
+      document.querySelector("#add-burst").addEventListener("click", () => {
+        const fragment = document.createDocumentFragment();
+        for (let index = 0; index < 80; index += 1) {
+          const item = document.createElement("article");
+          item.id = `burst-${index}`;
+          item.dataset.semanticCandidate = "";
+          item.dataset.topicName = "The Elm Signal: Chronicles";
+          item.dataset.topicAliases = "Elm TV Finn Umber|Elm TV Wren Moss|Elm tv Circle";
+          item.textContent = index % 20 === 0
+            ? "Elm TV Finn Umber: The orders blamed on a council use Elm TV Finn Umber's childhood cipher on every page."
+            : "Elm TV Finn Umber: A fan says Elm TV Finn Umber used the council cipher as poster art, with no story claim.";
+          fragment.append(item);
+        }
+        document.querySelector("#burst").append(fragment);
+      });
+    </script>
+  </body>
+</html>

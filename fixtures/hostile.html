@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information Blackout Hostile Fixture</title>
+    <style>
+      :root { font-family: system-ui, sans-serif; color: #182132; background: #f3f5f8; }
+      body { max-width: 920px; margin: 0 auto; padding: 2rem 1rem 5rem; }
+      header { margin-bottom: 1.5rem; }
+      section { margin: 1rem 0; padding: 1rem; border: 1px solid #ccd3dd; border-radius: 0.75rem; background: white; }
+      article, .card { margin: 0.65rem 0; padding: 0.8rem; border-left: 4px solid #9ca3af; background: #f8fafc; }
+      h1, h2, h3, p { margin-top: 0; }
+      .fixture-label { color: #5b6472; font-size: 0.75rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; }
+      .metadata { color: #667085; font-size: 0.8rem; }
+      button { padding: 0.55rem 0.8rem; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="fixture-label">Local adversarial test page</p>
+      <h1>Information Blackout hostile fixtures</h1>
+      <p>Each section intentionally probes a different false-positive or false-negative boundary.</p>
+    </header>
+
+    <section id="fixture-obvious">
+      <p class="fixture-label">Fixture A · obvious spoilers · expected protected</p>
+      <article>
+        <h2 id="obvious-severance">Severance Finale: Mark discovers that the testing floor is still active</h2>
+        <p class="metadata">Entertainment desk · 4 minutes ago</p>
+      </article>
+      <article>
+        <h3 id="obvious-ending">Major Severance ending explained and every final twist revealed</h3>
+      </article>
+    </section>
+
+    <section id="fixture-benign">
+      <p class="fixture-label">Fixture B · benign references · expected visible</p>
+      <p id="benign-started">I finally started watching Severance this week.</p>
+      <p id="benign-streaming">Severance season 1 is available to stream.</p>
+    </section>
+
+    <section id="fixture-indirect">
+      <p class="fixture-label">Fixture C · alias plus context · expected protected</p>
+      <p id="indirect-lumon">Lumon's biggest secret has finally been revealed.</p>
+      <p id="indirect-benign">The board meeting at Lumon has been postponed until Monday.</p>
+    </section>
+
+    <section id="fixture-sports">
+      <p class="fixture-label">Fixture D · sports contrast</p>
+      <p id="sports-benign">Denver Nuggets game tonight</p>
+      <p id="sports-result">Nuggets defeat Celtics 118-110 in championship game</p>
+    </section>
+
+    <section id="fixture-dynamic">
+      <p class="fixture-label">Fixture E · dynamic feed</p>
+      <button id="load-more" type="button">Load another feed item</button>
+      <div id="dynamic-feed" aria-live="polite"></div>
+    </section>
+
+    <section id="fixture-nested">
+      <p class="fixture-label">Fixture F · nested DOM · expected smallest headline protected</p>
+      <article id="nested-card" class="card">
+        <a href="#fixture-nested"><h3 id="nested-headline">Severance finale twist reveals Lumon's hidden testing floor</h3></a>
+        <p class="metadata">Culture Wire · television</p>
+        <p id="nested-benign-snippet">A weekly column covering production design and performances.</p>
+      </article>
+    </section>
+
+    <section id="fixture-noise">
+      <p class="fixture-label">Fixture G · hostile generic noise · expected visible</p>
+      <article>
+        <h3 id="noise-headline">Finale score winner board</h3>
+        <p id="noise-copy">
+          The winner of the baking raffle wrote a finale speech about the death of an old printer,
+          an ending to the office move, and the score from a generic trivia game.
+        </p>
+      </article>
+    </section>
+
+    <script>
+      document.querySelector("#load-more").addEventListener("click", () => {
+        const post = document.createElement("article");
+        post.id = "dynamic-card";
+        const headline = document.createElement("h3");
+        headline.id = "dynamic-spoiler";
+        headline.textContent = "Lumon's true purpose is revealed in the Severance finale";
+        const metadata = document.createElement("p");
+        metadata.className = "metadata";
+        metadata.textContent = "Inserted after initial page load";
+        post.append(headline, metadata);
+        document.querySelector("#dynamic-feed").append(post);
+      });
+    </script>
+  </body>
+</html>

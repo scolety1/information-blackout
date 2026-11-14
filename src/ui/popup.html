@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information Blackout</title>
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="popup-feedback.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="brand-mark" aria-hidden="true">IB</div>
+      <div>
+        <p class="eyebrow">Local spoiler protection</p>
+        <h1>Information Blackout</h1>
+      </div>
+    </header>
+
+    <main>
+      <form id="topic-form" class="topic-form">
+        <h2>Protect a topic</h2>
+        <label for="topic-name">Topic name</label>
+        <input
+          id="topic-name"
+          name="topic-name"
+          type="text"
+          maxlength="120"
+          placeholder="e.g. Severance"
+          autocomplete="off"
+          required
+        />
+
+        <label for="topic-aliases">
+          Aliases <span class="optional">optional · one per line or comma</span>
+        </label>
+        <textarea
+          id="topic-aliases"
+          name="topic-aliases"
+          rows="3"
+          maxlength="2500"
+          placeholder="Lumon&#10;Mark Scout"
+        ></textarea>
+
+        <label class="enabled-control">
+          <input id="topic-enabled" type="checkbox" checked />
+          <span>Enable protection now</span>
+        </label>
+
+        <button class="primary-button" type="submit">Add protected topic</button>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </form>
+
+      <section class="topics-section" aria-labelledby="topics-heading">
+        <div class="section-heading">
+          <h2 id="topics-heading">Protected topics</h2>
+          <span id="topic-count" class="topic-count">0</span>
+        </div>
+        <div id="topics-list" class="topics-list"></div>
+      </section>
+
+      <section class="report-card" aria-labelledby="report-heading">
+        <h2 id="report-heading">Missed a spoiler?</h2>
+        <p>Select the missed region and optionally add an alias you type yourself.</p>
+        <button id="report-missed" class="secondary-button" type="button">
+          Report missed spoiler
+        </button>
+      </section>
+    </main>
+
+    <footer>Page text stays on the page. Only these settings are stored.</footer>
+    <script src="popup.js"></script>
+  </body>
+</html>

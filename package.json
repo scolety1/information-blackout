@@ -1,0 +1,35 @@
+{
+  "name": "information-blackout",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A local-first Chrome/Edge extension that conceals likely spoilers for user-configured topics.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:m3:lab": "node scripts/build-mission3-lab.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit",
+    "test:dom": "vitest run tests/dom",
+    "eval:m3:baseline": "node scripts/eval-mission3-baseline.mjs",
+    "eval:m3:semantic": "node scripts/eval-mission3-semantic.mjs",
+    "eval:m4": "node scripts/eval-mission4.mjs --label detector-v0.4-structured-locked --output reports/mission4-development-final.json",
+    "test:e2e": "npm run build && npm run build:m3:lab && playwright test",
+    "eval": "node scripts/eval.mjs",
+    "verify": "npm run typecheck && npm test && npm run eval && npm run eval:m4 && npm run test:e2e && npm run build"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "4.2.0",
+    "@playwright/test": "^1.62.1",
+    "@types/chrome": "^0.2.5",
+    "@types/node": "^26.2.0",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.0.1",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  },
+  "overrides": {
+    "sharp": "0.35.3",
+    "adm-zip": "0.6.0"
+  }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Long-form article fixture</title>
+  <style>
+    body { margin: 0; font: 17px/1.65 Georgia, serif; color: #202938; }
+    nav { padding: 1rem; background: #172033; color: white; }
+    .layout { display: grid; grid-template-columns: minmax(0, 700px) 240px; gap: 2rem; max-width: 1000px; margin: 2rem auto; }
+    article, aside { padding: 1rem; }
+    aside { border-left: 1px solid #d5dae3; font-family: system-ui; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <nav>Culture · Reviews · Interviews · Schedules</nav>
+  <div class="layout">
+    <article id="long-article">
+      <h1>A spoiler-aware guide to production design</h1>
+      <p id="long-benign">Severance is available to stream, and this article begins with spoiler-free craft discussion.</p>
+      <h2 id="long-spoiler">Severance finale reveals that Lumon fabricated every memory</h2>
+      <p>The surrounding paragraph discusses lighting, hallways, and set construction.</p>
+      <h2>A deliberately missed alias example</h2>
+      <p id="missed-region">Helly R betrays the team and leaves the facility.</p>
+      <p>Readers can use report mode on the preceding paragraph and explicitly add “Helly R” as an alias.</p>
+    </article>
+    <aside>
+      <h2>Related reading</h2>
+      <p id="sidebar-benign">Casting news and next episode schedules.</p>
+      <a href="#long-benign">Spoiler-free introduction</a>
+    </aside>
+  </div>
+</body>
+</html>

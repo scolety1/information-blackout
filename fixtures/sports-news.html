@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sports news fixture</title>
+  <style>
+    body { max-width: 900px; margin: 2rem auto; font: 16px/1.5 system-ui; }
+    .grid { display: grid; grid-template-columns: 2fr 1fr; gap: 1rem; }
+    article, aside { padding: 1rem; border: 1px solid #d5dae3; border-radius: 0.6rem; }
+    .score { font-size: 1.4rem; font-weight: 800; }
+  </style>
+</head>
+<body>
+  <header><h1>Sports desk</h1></header>
+  <div class="grid">
+    <main>
+      <article><h2 id="sports-completed">Nuggets defeated Boston 118-110</h2><p>Completed result and post-game analysis.</p></article>
+      <article><h2 id="sports-preview">Denver Nuggets preview lists betting odds and matchup history</h2><p>Pre-game analysis only.</p></article>
+      <article><h2 id="sports-live">Nuggets lead 96-80 with ten seconds remaining</h2><p>Live result state.</p></article>
+    </main>
+    <aside>
+      <h2>Upcoming</h2>
+      <p id="sports-schedule">Denver Nuggets play Tuesday at 7 PM</p>
+      <p class="score" id="unrelated-score">Weather score: 8 of 10</p>
+    </aside>
+  </div>
+</body>
+</html>

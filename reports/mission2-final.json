@@ -1,0 +1,1285 @@
+{
+  "schemaVersion": 1,
+  "label": "mission2-final",
+  "corpus": {
+    "total": 360,
+    "calibration": 288,
+    "heldout": 72,
+    "spoiler": 180,
+    "benign": 180,
+    "categories": [
+      "tv",
+      "movie",
+      "sports",
+      "game",
+      "book",
+      "competition",
+      "adversarial"
+    ]
+  },
+  "selectedThreshold": 7,
+  "metrics": {
+    "calibration": {
+      "total": 288,
+      "truePositives": 142,
+      "falsePositives": 0,
+      "trueNegatives": 144,
+      "falseNegatives": 2,
+      "precision": 1,
+      "recall": 0.9861,
+      "f1": 0.993,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.0139
+    },
+    "heldout": {
+      "total": 72,
+      "truePositives": 35,
+      "falsePositives": 0,
+      "trueNegatives": 36,
+      "falseNegatives": 1,
+      "precision": 1,
+      "recall": 0.9722,
+      "f1": 0.9859,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.0278
+    },
+    "all": {
+      "total": 360,
+      "truePositives": 177,
+      "falsePositives": 0,
+      "trueNegatives": 180,
+      "falseNegatives": 3,
+      "precision": 1,
+      "recall": 0.9833,
+      "f1": 0.9916,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.0167
+    }
+  },
+  "byCategory": {
+    "calibration": {
+      "adversarial": {
+        "total": 48,
+        "truePositives": 24,
+        "falsePositives": 0,
+        "trueNegatives": 24,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "book": {
+        "total": 40,
+        "truePositives": 18,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.9,
+        "f1": 0.9474,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.1
+      },
+      "competition": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "game": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "movie": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "sports": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "tv": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    },
+    "heldout": {
+      "adversarial": {
+        "total": 12,
+        "truePositives": 6,
+        "falsePositives": 0,
+        "trueNegatives": 6,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "book": {
+        "total": 10,
+        "truePositives": 4,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.2
+      },
+      "competition": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "game": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "movie": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "sports": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "tv": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    }
+  },
+  "byTag": {
+    "calibration": {
+      "adversarial": {
+        "total": 48,
+        "truePositives": 24,
+        "falsePositives": 0,
+        "trueNegatives": 24,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "alias": {
+        "total": 32,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 24,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "alias-only": {
+        "total": 54,
+        "truePositives": 45,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9783,
+        "f1": 0.989,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0217
+      },
+      "benign": {
+        "total": 144,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 144,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "benign-alarming-language": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "benign-title-mention": {
+        "total": 72,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 72,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "betrayal": {
+        "total": 12,
+        "truePositives": 12,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "book": {
+        "total": 40,
+        "truePositives": 18,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.9,
+        "f1": 0.9474,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.1
+      },
+      "casing-variant": {
+        "total": 12,
+        "truePositives": 6,
+        "falsePositives": 0,
+        "trueNegatives": 6,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "casting-news": {
+        "total": 12,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 12,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "common-word-collision": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "competition": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "death": {
+        "total": 24,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 4,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "elimination": {
+        "total": 12,
+        "truePositives": 12,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "emoji-noise": {
+        "total": 12,
+        "truePositives": 6,
+        "falsePositives": 0,
+        "trueNegatives": 6,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "ending": {
+        "total": 32,
+        "truePositives": 32,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "entity-collision": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "episode-schedule": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "explicit-warning": {
+        "total": 30,
+        "truePositives": 30,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "final-score": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "finale": {
+        "total": 8,
+        "truePositives": 4,
+        "falsePositives": 0,
+        "trueNegatives": 4,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "game": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "headline": {
+        "total": 30,
+        "truePositives": 30,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "hypothetical": {
+        "total": 12,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 12,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "identity-reveal": {
+        "total": 24,
+        "truePositives": 24,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "indirect": {
+        "total": 12,
+        "truePositives": 10,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.8333,
+        "f1": 0.9091,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.1667
+      },
+      "metadata": {
+        "total": 30,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 30,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "movie": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "negation": {
+        "total": 16,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 16,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "plain": {
+        "total": 42,
+        "truePositives": 6,
+        "falsePositives": 0,
+        "trueNegatives": 36,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "plot-reveal": {
+        "total": 24,
+        "truePositives": 22,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.9167,
+        "f1": 0.9565,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0833
+      },
+      "prediction": {
+        "total": 12,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 12,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "punctuation-variant": {
+        "total": 12,
+        "truePositives": 6,
+        "falsePositives": 0,
+        "trueNegatives": 6,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "question": {
+        "total": 34,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 34,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "quoted-statement": {
+        "total": 30,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 30,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "relationship-outcome": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "release-information": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "result": {
+        "total": 20,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "score-word": {
+        "total": 8,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 8,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "social": {
+        "total": 42,
+        "truePositives": 35,
+        "falsePositives": 0,
+        "trueNegatives": 6,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9722,
+        "f1": 0.9859,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0278
+      },
+      "spoiler": {
+        "total": 144,
+        "truePositives": 142,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.9861,
+        "f1": 0.993,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0139
+      },
+      "spoiler-free-review": {
+        "total": 16,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 16,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "sports": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "survival": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "title-absent": {
+        "total": 38,
+        "truePositives": 37,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9737,
+        "f1": 0.9867,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0263
+      },
+      "title-present": {
+        "total": 90,
+        "truePositives": 89,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9889,
+        "f1": 0.9944,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0111
+      },
+      "tv": {
+        "total": 40,
+        "truePositives": 20,
+        "falsePositives": 0,
+        "trueNegatives": 20,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "twist": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "winner": {
+        "total": 16,
+        "truePositives": 16,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    },
+    "heldout": {
+      "adversarial": {
+        "total": 12,
+        "truePositives": 6,
+        "falsePositives": 0,
+        "trueNegatives": 6,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "alias": {
+        "total": 8,
+        "truePositives": 2,
+        "falsePositives": 0,
+        "trueNegatives": 6,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "alias-only": {
+        "total": 36,
+        "truePositives": 33,
+        "falsePositives": 0,
+        "trueNegatives": 2,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9706,
+        "f1": 0.9851,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0294
+      },
+      "benign": {
+        "total": 36,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 36,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "benign-alarming-language": {
+        "total": 32,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 32,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "benign-title-mention": {
+        "total": 18,
+        "truePositives": 0,
+        "falsePositives": 0,
+        "trueNegatives": 18,
+        "falseNegatives": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "book": {
+        "total": 10,
+        "truePositives": 4,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.8,
+        "f1": 0.8889,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.2
+      },
+      "competition": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "death": {
+        "total": 6,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 1,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "emoji-noise": {
+        "total": 60,
+        "truePositives": 29,
+        "falsePositives": 0,
+        "trueNegatives": 30,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9667,
+        "f1": 0.9831,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0333
+      },
+      "ending": {
+        "total": 8,
+        "truePositives": 8,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "game": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "heldout-style": {
+        "total": 72,
+        "truePositives": 35,
+        "falsePositives": 0,
+        "trueNegatives": 36,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9722,
+        "f1": 0.9859,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0278
+      },
+      "identity-reveal": {
+        "total": 6,
+        "truePositives": 6,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "movie": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "plot-reveal": {
+        "total": 6,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.8333,
+        "f1": 0.9091,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.1667
+      },
+      "quoted-statement": {
+        "total": 12,
+        "truePositives": 6,
+        "falsePositives": 0,
+        "trueNegatives": 6,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "result": {
+        "total": 5,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "spoiler": {
+        "total": 36,
+        "truePositives": 35,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9722,
+        "f1": 0.9859,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0278
+      },
+      "sports": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      },
+      "title-absent": {
+        "total": 32,
+        "truePositives": 31,
+        "falsePositives": 0,
+        "trueNegatives": 0,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9688,
+        "f1": 0.9842,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0313
+      },
+      "tv": {
+        "total": 10,
+        "truePositives": 5,
+        "falsePositives": 0,
+        "trueNegatives": 5,
+        "falseNegatives": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0
+      }
+    }
+  },
+  "thresholdAnalysis": {
+    "5": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 142,
+        "falsePositives": 4,
+        "trueNegatives": 140,
+        "falseNegatives": 2,
+        "precision": 0.9726,
+        "recall": 0.9861,
+        "f1": 0.9793,
+        "falsePositiveRate": 0.0278,
+        "falseNegativeRate": 0.0139
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 35,
+        "falsePositives": 2,
+        "trueNegatives": 34,
+        "falseNegatives": 1,
+        "precision": 0.9459,
+        "recall": 0.9722,
+        "f1": 0.9589,
+        "falsePositiveRate": 0.0556,
+        "falseNegativeRate": 0.0278
+      }
+    },
+    "6": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 142,
+        "falsePositives": 4,
+        "trueNegatives": 140,
+        "falseNegatives": 2,
+        "precision": 0.9726,
+        "recall": 0.9861,
+        "f1": 0.9793,
+        "falsePositiveRate": 0.0278,
+        "falseNegativeRate": 0.0139
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 35,
+        "falsePositives": 1,
+        "trueNegatives": 35,
+        "falseNegatives": 1,
+        "precision": 0.9722,
+        "recall": 0.9722,
+        "f1": 0.9722,
+        "falsePositiveRate": 0.0278,
+        "falseNegativeRate": 0.0278
+      }
+    },
+    "7": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 142,
+        "falsePositives": 0,
+        "trueNegatives": 144,
+        "falseNegatives": 2,
+        "precision": 1,
+        "recall": 0.9861,
+        "f1": 0.993,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0139
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 35,
+        "falsePositives": 0,
+        "trueNegatives": 36,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9722,
+        "f1": 0.9859,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0278
+      }
+    },
+    "8": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 139,
+        "falsePositives": 0,
+        "trueNegatives": 144,
+        "falseNegatives": 5,
+        "precision": 1,
+        "recall": 0.9653,
+        "f1": 0.9823,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0347
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 35,
+        "falsePositives": 0,
+        "trueNegatives": 36,
+        "falseNegatives": 1,
+        "precision": 1,
+        "recall": 0.9722,
+        "f1": 0.9859,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.0278
+      }
+    },
+    "9": {
+      "calibration": {
+        "total": 288,
+        "truePositives": 126,
+        "falsePositives": 0,
+        "trueNegatives": 144,
+        "falseNegatives": 18,
+        "precision": 1,
+        "recall": 0.875,
+        "f1": 0.9333,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.125
+      },
+      "heldout": {
+        "total": 72,
+        "truePositives": 31,
+        "falsePositives": 0,
+        "trueNegatives": 36,
+        "falseNegatives": 5,
+        "precision": 1,
+        "recall": 0.8611,
+        "f1": 0.9254,
+        "falsePositiveRate": 0,
+        "falseNegativeRate": 0.1389
+      }
+    }
+  },
+  "failures": {
+    "calibration": {
+      "falsePositives": [],
+      "falseNegatives": [
+        {
+          "id": "book-spoiler-14",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "plot-reveal",
+            "indirect",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        },
+        {
+          "id": "book-spoiler-19",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "plot-reveal",
+            "indirect",
+            "social",
+            "title-present"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        }
+      ]
+    },
+    "heldout": {
+      "falsePositives": [],
+      "falseNegatives": [
+        {
+          "id": "book-spoiler-24",
+          "category": "book",
+          "tags": [
+            "book",
+            "spoiler",
+            "plot-reveal",
+            "indirect",
+            "heldout-style",
+            "emoji-noise",
+            "alias-only",
+            "title-absent"
+          ],
+          "score": 3,
+          "reasons": [
+            "protected term"
+          ]
+        }
+      ]
+    }
+  }
+}

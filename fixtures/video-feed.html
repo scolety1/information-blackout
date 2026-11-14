@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Video feed fixture</title>
+  <style>
+    body { margin: 2rem; font: 16px/1.45 system-ui; }
+    main { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .card { padding: 0.8rem; border: 1px solid #d5dae3; border-radius: 0.65rem; }
+    .thumb { display: grid; height: 120px; place-items: center; background: #243047; color: white; border-radius: 0.4rem; }
+    .meta { color: #64748b; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <h1>Recommended videos</h1>
+  <main>
+    <article class="card" id="video-spoiler-card">
+      <div class="thumb" aria-label="placeholder thumbnail">Video</div>
+      <h2 id="video-spoiler">Glass Horizon ending: Captain Vale survives and becomes commander</h2>
+      <p class="meta">Film Desk · 12:40</p>
+    </article>
+    <article class="card" id="video-benign-card">
+      <div class="thumb" aria-label="placeholder thumbnail">Video</div>
+      <h2 id="video-benign">Glass Horizon trailer uses practical miniature effects</h2>
+      <p class="meta">Craft Channel · 05:10</p>
+    </article>
+    <article class="card">
+      <div class="thumb" aria-label="placeholder thumbnail">Video</div>
+      <h2 id="video-game-spoiler">Starfall Protocol: Hollow Regent is the masked final boss</h2>
+      <p class="meta">Game Archive · 09:22</p>
+    </article>
+  </main>
+</body>
+</html>

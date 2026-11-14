@@ -1,0 +1,26 @@
+.report-card {
+  margin-bottom: 0.7rem;
+  padding: 0.85rem;
+  border: 1px solid #fed7aa;
+  border-radius: 0.7rem;
+  background: #fff7ed;
+}
+
+.report-card h2 { margin-bottom: 0.35rem; }
+.report-card p { margin-bottom: 0.65rem; color: #7c2d12; font-size: 0.74rem; line-height: 1.4; }
+
+.secondary-button {
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #c2410c;
+  border-radius: 0.45rem;
+  background: #fff;
+  color: #9a3412;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.secondary-button:hover { background: #ffedd5; }
+.secondary-button:disabled { border-color: #d1d5db; color: #9ca3af; cursor: not-allowed; background: #f3f4f6; }
+.secondary-button:focus-visible { outline: 3px solid #fdba74; outline-offset: 2px; }

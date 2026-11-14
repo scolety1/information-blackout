@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "status": "LOCKED_BEFORE_MISSION3_GATE",
+  "detectorVersion": "detector-v0.4-structured",
+  "lockedAt": "2026-08-12T11:15:00-06:00",
+  "baseCommit": "c43106a9aec5169e7610c8dfa5494346c107fcde",
+  "detectorSource": "src/detection/scorer.ts",
+  "detectorSourceSha256": "f004e26f2cfaec92699d1e14d59a90965dce58d90a120d01832253c1a48caa8f",
+  "detectorWorkingDiffGitBlob": "288a4b6c1bfa38ec4ffe0dfc30913942f68870a2",
+  "mission4CorpusSha256": "9efe52087ad198a6670a181ee4f5150b9077dce41fcf8a0c5aed2d896eb60be0",
+  "mission3GateExpectedSha256": "5bbd4912efbe42f771bd8a54e2916c21b04781bfca126e9754399732ab49fde8",
+  "policy": {
+    "threshold": 7,
+    "decision": "topic relevance AND asserted reveal evidence AND no controlling benign/epistemic safeguard",
+    "aliasPolicy": "short/common aliases require a completed result with strong reveal evidence",
+    "questionPolicy": "questions are benign except explicit how/why presuppositions of a completed result",
+    "futurePolicy": "future/prediction language is benign unless the text is live or completed",
+    "metadataPolicy": "metadata and review contexts do not become spoilers from alarming vocabulary alone"
+  },
+  "selectionEvidence": {
+    "development": { "precision": 0.9967, "recall": 1, "f1": 0.9983, "falsePositives": 1, "falseNegatives": 0 },
+    "heldoutValidation": { "precision": 0.7895, "recall": 0.125, "f1": 0.2158, "falsePositives": 4, "falseNegatives": 105 },
+    "mission2Regression": { "precision": 1, "recall": 0.95, "f1": 0.9744, "falsePositives": 0, "falseNegatives": 9 }
+  },
+  "postGateMutationRule": "Do not modify detector source or policy after the Mission 3 frozen gate."
+}

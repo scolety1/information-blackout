@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "status": "superseded-before-final-evaluation",
+      "checksum": "452769164e40f2ec981a1e8728f23319dbc119da306575066bbbfc410bd4fc9d",
+      "reason": "Corpus validation found 140 duplicate candidate texts and entity aliases shared between development and entity-held-out groups."
+    },
+    {
+      "status": "intermediate-validation-only",
+      "checksum": "2f8acee483d7c4f6e501d56e755d335e06a6f0bcb47273690ac8bf6cfca21aae",
+      "reason": "Entity/text leakage was repaired, but validation then found that raw split-name tags collided with the indirect-reveal and benign-adversarial slice tags. No detector evaluation used this checksum."
+    },
+    {
+      "status": "frozen-final",
+      "checksum": "5bbd4912efbe42f771bd8a54e2916c21b04781bfca126e9754399732ab49fde8",
+      "reason": "All 600 texts are unique, split entities are disjoint, and challenge slice tags are unambiguous. The learned head and threshold were not changed after this repair."
+    }
+  ]
+}

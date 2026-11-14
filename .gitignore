@@ -1,0 +1,15 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.vitest/
+*.log
+.eval-cache/
+reports/detection-eval.json
+.model-cache/
+.mission3-lab-dist/
+
+# Optional upstream model weights are not part of the public snapshot.
+third_party/models/
+.env
+.env.*

@@ -1,0 +1,4642 @@
+{
+  "schemaVersion": 1,
+  "label": "mission2-deterministic-on-frozen-mission3-ood",
+  "challengeChecksum": "5bbd4912efbe42f771bd8a54e2916c21b04781bfca126e9754399732ab49fde8",
+  "corpus": {
+    "total": 600,
+    "spoiler": 300,
+    "benign": 300,
+    "bySplit": {
+      "development": 120,
+      "entity-heldout": 120,
+      "linguistic-heldout": 120,
+      "indirect-reveal": 120,
+      "benign-adversarial": 120
+    },
+    "byCategory": {
+      "tv": 100,
+      "movie": 100,
+      "sports": 100,
+      "game": 100,
+      "book": 100,
+      "competition": 100
+    },
+    "indirectReveal": 120,
+    "benignAdversarial": 180
+  },
+  "metrics": {
+    "development": {
+      "total": 120,
+      "truePositives": 53,
+      "falsePositives": 12,
+      "trueNegatives": 48,
+      "falseNegatives": 7,
+      "precision": 0.8154,
+      "recall": 0.8833,
+      "f1": 0.848,
+      "falsePositiveRate": 0.2,
+      "falseNegativeRate": 0.1167
+    },
+    "entity-heldout": {
+      "total": 120,
+      "truePositives": 53,
+      "falsePositives": 12,
+      "trueNegatives": 48,
+      "falseNegatives": 7,
+      "precision": 0.8154,
+      "recall": 0.8833,
+      "f1": 0.848,
+      "falsePositiveRate": 0.2,
+      "falseNegativeRate": 0.1167
+    },
+    "linguistic-heldout": {
+      "total": 120,
+      "truePositives": 47,
+      "falsePositives": 17,
+      "trueNegatives": 43,
+      "falseNegatives": 13,
+      "precision": 0.7344,
+      "recall": 0.7833,
+      "f1": 0.7581,
+      "falsePositiveRate": 0.2833,
+      "falseNegativeRate": 0.2167
+    },
+    "indirect-reveal": {
+      "total": 120,
+      "truePositives": 47,
+      "falsePositives": 30,
+      "trueNegatives": 30,
+      "falseNegatives": 13,
+      "precision": 0.6104,
+      "recall": 0.7833,
+      "f1": 0.6861,
+      "falsePositiveRate": 0.5,
+      "falseNegativeRate": 0.2167
+    },
+    "benign-adversarial": {
+      "total": 120,
+      "truePositives": 53,
+      "falsePositives": 35,
+      "trueNegatives": 25,
+      "falseNegatives": 7,
+      "precision": 0.6023,
+      "recall": 0.8833,
+      "f1": 0.7162,
+      "falsePositiveRate": 0.5833,
+      "falseNegativeRate": 0.1167
+    },
+    "overall": {
+      "total": 600,
+      "truePositives": 253,
+      "falsePositives": 106,
+      "trueNegatives": 194,
+      "falseNegatives": 47,
+      "precision": 0.7047,
+      "recall": 0.8433,
+      "f1": 0.7678,
+      "falsePositiveRate": 0.3533,
+      "falseNegativeRate": 0.1567
+    }
+  },
+  "byCategory": {
+    "book": {
+      "total": 100,
+      "truePositives": 38,
+      "falsePositives": 16,
+      "trueNegatives": 34,
+      "falseNegatives": 12,
+      "precision": 0.7037,
+      "recall": 0.76,
+      "f1": 0.7308,
+      "falsePositiveRate": 0.32,
+      "falseNegativeRate": 0.24
+    },
+    "competition": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    },
+    "game": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    },
+    "movie": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    },
+    "sports": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    },
+    "tv": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    }
+  },
+  "byTag": {
+    "benign": {
+      "total": 300,
+      "truePositives": 0,
+      "falsePositives": 106,
+      "trueNegatives": 194,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0.3533,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial": {
+      "total": 180,
+      "truePositives": 0,
+      "falsePositives": 82,
+      "trueNegatives": 98,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0.4556,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 5,
+      "trueNegatives": 1,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0.8333,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 5,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 1,
+      "precision": 1,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.1667
+    },
+    "benign-adversarial-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "book": {
+      "total": 100,
+      "truePositives": 38,
+      "falsePositives": 16,
+      "trueNegatives": 34,
+      "falseNegatives": 12,
+      "precision": 0.7037,
+      "recall": 0.76,
+      "f1": 0.7308,
+      "falsePositiveRate": 0.32,
+      "falseNegativeRate": 0.24
+    },
+    "competition": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    },
+    "development-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "development-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 5,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 1,
+      "precision": 1,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.1667
+    },
+    "development-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "entity-heldout-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 5,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 1,
+      "precision": 1,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.1667
+    },
+    "entity-heldout-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "game": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    },
+    "indirect-reveal": {
+      "total": 120,
+      "truePositives": 94,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 26,
+      "precision": 1,
+      "recall": 0.7833,
+      "f1": 0.8785,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.2167
+    },
+    "indirect-reveal-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 5,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 1,
+      "precision": 1,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.1667
+    },
+    "indirect-reveal-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 5,
+      "trueNegatives": 1,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0.8333,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 5,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 1,
+      "precision": 1,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.1667
+    },
+    "linguistic-heldout-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "long-context": {
+      "total": 300,
+      "truePositives": 139,
+      "falsePositives": 46,
+      "trueNegatives": 104,
+      "falseNegatives": 11,
+      "precision": 0.7514,
+      "recall": 0.9267,
+      "f1": 0.8299,
+      "falsePositiveRate": 0.3067,
+      "falseNegativeRate": 0.0733
+    },
+    "movie": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    },
+    "short-context": {
+      "total": 300,
+      "truePositives": 114,
+      "falsePositives": 60,
+      "trueNegatives": 90,
+      "falseNegatives": 36,
+      "precision": 0.6552,
+      "recall": 0.76,
+      "f1": 0.7037,
+      "falsePositiveRate": 0.4,
+      "falseNegativeRate": 0.24
+    },
+    "split:benign-adversarial": {
+      "total": 120,
+      "truePositives": 53,
+      "falsePositives": 35,
+      "trueNegatives": 25,
+      "falseNegatives": 7,
+      "precision": 0.6023,
+      "recall": 0.8833,
+      "f1": 0.7162,
+      "falsePositiveRate": 0.5833,
+      "falseNegativeRate": 0.1167
+    },
+    "split:development": {
+      "total": 120,
+      "truePositives": 53,
+      "falsePositives": 12,
+      "trueNegatives": 48,
+      "falseNegatives": 7,
+      "precision": 0.8154,
+      "recall": 0.8833,
+      "f1": 0.848,
+      "falsePositiveRate": 0.2,
+      "falseNegativeRate": 0.1167
+    },
+    "split:entity-heldout": {
+      "total": 120,
+      "truePositives": 53,
+      "falsePositives": 12,
+      "trueNegatives": 48,
+      "falseNegatives": 7,
+      "precision": 0.8154,
+      "recall": 0.8833,
+      "f1": 0.848,
+      "falsePositiveRate": 0.2,
+      "falseNegativeRate": 0.1167
+    },
+    "split:indirect-reveal": {
+      "total": 120,
+      "truePositives": 47,
+      "falsePositives": 30,
+      "trueNegatives": 30,
+      "falseNegatives": 13,
+      "precision": 0.6104,
+      "recall": 0.7833,
+      "f1": 0.6861,
+      "falsePositiveRate": 0.5,
+      "falseNegativeRate": 0.2167
+    },
+    "split:linguistic-heldout": {
+      "total": 120,
+      "truePositives": 47,
+      "falsePositives": 17,
+      "trueNegatives": 43,
+      "falseNegatives": 13,
+      "precision": 0.7344,
+      "recall": 0.7833,
+      "f1": 0.7581,
+      "falsePositiveRate": 0.2833,
+      "falseNegativeRate": 0.2167
+    },
+    "spoiler": {
+      "total": 300,
+      "truePositives": 253,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 47,
+      "precision": 1,
+      "recall": 0.8433,
+      "f1": 0.915,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.1567
+    },
+    "sports": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    },
+    "title-absent": {
+      "total": 180,
+      "truePositives": 60,
+      "falsePositives": 48,
+      "trueNegatives": 42,
+      "falseNegatives": 30,
+      "precision": 0.5556,
+      "recall": 0.6667,
+      "f1": 0.6061,
+      "falsePositiveRate": 0.5333,
+      "falseNegativeRate": 0.3333
+    },
+    "title-present": {
+      "total": 420,
+      "truePositives": 193,
+      "falsePositives": 58,
+      "trueNegatives": 152,
+      "falseNegatives": 17,
+      "precision": 0.7689,
+      "recall": 0.919,
+      "f1": 0.8373,
+      "falsePositiveRate": 0.2762,
+      "falseNegativeRate": 0.081
+    },
+    "tv": {
+      "total": 100,
+      "truePositives": 43,
+      "falsePositives": 18,
+      "trueNegatives": 32,
+      "falseNegatives": 7,
+      "precision": 0.7049,
+      "recall": 0.86,
+      "f1": 0.7748,
+      "falsePositiveRate": 0.36,
+      "falseNegativeRate": 0.14
+    }
+  },
+  "failures": {
+    "falsePositives": [
+      {
+        "id": "development-tv-benign-05",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "development-tv-benign-10",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "benign",
+          "long-context",
+          "title-present",
+          "development-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "development-movie-benign-05",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "development-movie-benign-10",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "benign",
+          "long-context",
+          "title-present",
+          "development-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "development-sports-benign-05",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "development-sports-benign-10",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "benign",
+          "long-context",
+          "title-present",
+          "development-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "development-game-benign-05",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "development-game-benign-10",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "benign",
+          "long-context",
+          "title-present",
+          "development-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "development-book-benign-05",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "development-book-benign-10",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "benign",
+          "long-context",
+          "title-present",
+          "development-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "development-competition-benign-05",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "development-competition-benign-10",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "benign",
+          "long-context",
+          "title-present",
+          "development-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-benign-05",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-benign-10",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "benign",
+          "long-context",
+          "title-present",
+          "entity-heldout-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-benign-05",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-benign-10",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "benign",
+          "long-context",
+          "title-present",
+          "entity-heldout-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-benign-05",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-benign-10",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "benign",
+          "long-context",
+          "title-present",
+          "entity-heldout-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-benign-05",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-benign-10",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "benign",
+          "long-context",
+          "title-present",
+          "entity-heldout-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-benign-05",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-benign-10",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "benign",
+          "long-context",
+          "title-present",
+          "entity-heldout-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-benign-05",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "repeated protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-benign-10",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "benign",
+          "long-context",
+          "title-present",
+          "entity-heldout-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-benign-03",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "benign",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-benign-06",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "benign",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-benign-09",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "benign",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-benign-03",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "benign",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-benign-06",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "benign",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-benign-09",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "benign",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-benign-03",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "benign",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-benign-06",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "benign",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-benign-09",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "benign",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-benign-03",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "benign",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-benign-06",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "benign",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-benign-09",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "benign",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-benign-03",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "benign",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-benign-09",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "benign",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-benign-03",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "benign",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-benign-06",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "benign",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-benign-09",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "benign",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-benign-03",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-benign-04",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-04",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-benign-05",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "benign",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-benign-09",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "benign",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-benign-10",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "benign",
+          "long-context",
+          "title-present",
+          "indirect-reveal-benign-family-10",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-benign-03",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-benign-04",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-04",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-benign-05",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "benign",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-benign-09",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "benign",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-benign-10",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "benign",
+          "long-context",
+          "title-present",
+          "indirect-reveal-benign-family-10",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-benign-03",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-benign-04",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-04",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-benign-05",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "benign",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-benign-09",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "benign",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-benign-10",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "benign",
+          "long-context",
+          "title-present",
+          "indirect-reveal-benign-family-10",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-benign-03",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-benign-04",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-04",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-benign-05",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "benign",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-benign-09",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "benign",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-benign-10",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "benign",
+          "long-context",
+          "title-present",
+          "indirect-reveal-benign-family-10",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-benign-03",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-benign-04",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-04",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-benign-05",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "benign",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-benign-09",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "benign",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-benign-10",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "benign",
+          "long-context",
+          "title-present",
+          "indirect-reveal-benign-family-10",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-benign-03",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-benign-04",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "benign",
+          "short-context",
+          "title-present",
+          "indirect-reveal-benign-family-04",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-benign-05",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "benign",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-benign-09",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "benign",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-benign-10",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "benign",
+          "long-context",
+          "title-present",
+          "indirect-reveal-benign-family-10",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-benign-01",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-01",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-benign-02",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-02",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-benign-03",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 10.25,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-benign-05",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 12,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-benign-06",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "benign",
+          "long-context",
+          "title-present",
+          "benign-adversarial-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-benign-09",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "benign",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 10,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-benign-01",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-01",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-benign-02",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-02",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-benign-03",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 10.25,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-benign-05",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 12,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-benign-06",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "benign",
+          "long-context",
+          "title-present",
+          "benign-adversarial-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-benign-09",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "benign",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 10,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-benign-01",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-01",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-benign-02",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-02",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-benign-03",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 10.25,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-benign-05",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 12,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-benign-06",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "benign",
+          "long-context",
+          "title-present",
+          "benign-adversarial-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-benign-09",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "benign",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 10,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-benign-01",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-01",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-benign-02",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-02",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-benign-03",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 10.25,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-benign-05",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 12,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-benign-06",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "benign",
+          "long-context",
+          "title-present",
+          "benign-adversarial-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-benign-09",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "benign",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 10,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-benign-01",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-01",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-benign-02",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-02",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-benign-03",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 10.25,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-benign-05",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 12,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-benign-09",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "benign",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 10,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-benign-01",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-01",
+          "benign-adversarial"
+        ],
+        "score": 9,
+        "reasons": [
+          "protected term",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-benign-02",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-02",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-benign-03",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "benign",
+          "short-context",
+          "title-present",
+          "benign-adversarial-benign-family-03",
+          "benign-adversarial"
+        ],
+        "score": 10.25,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-benign-05",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 12,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-benign-06",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "benign",
+          "long-context",
+          "title-present",
+          "benign-adversarial-benign-family-06",
+          "benign-adversarial"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-benign-09",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "benign",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-benign-family-09",
+          "benign-adversarial"
+        ],
+        "score": 10,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "spoiler indicator language",
+          "close term/indicator proximity",
+          "dense local context",
+          "hypothetical-or-prediction"
+        ]
+      }
+    ],
+    "falseNegatives": [
+      {
+        "id": "development-tv-spoiler-01",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-01",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-01",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-01",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-01",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-06",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-06"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-01",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-spoiler-01",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-spoiler-01",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-spoiler-01",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-spoiler-01",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-01",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-06",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-06"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-01",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-06",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-06",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-06",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-06"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "benign-metadata-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 4,
+        "reasons": [
+          "protected term",
+          "repeated protected term"
+        ]
+      }
+    ]
+  },
+  "scoreDistribution": {
+    "0": 21,
+    "1": 18,
+    "3": 30,
+    "4": 97,
+    "6": 6,
+    "7": 239,
+    "9": 72,
+    "10": 6,
+    "11": 12,
+    "12": 6,
+    "13": 6,
+    "14": 6,
+    "2.5": 21,
+    "3.5": 12,
+    "4.5": 30,
+    "6.5": 6,
+    "10.25": 6,
+    "12.5": 6
+  }
+}

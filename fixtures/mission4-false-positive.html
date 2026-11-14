@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Mission 4 mixed feed</title></head>
+<body>
+  <main>
+    <article id="m4-prediction">I think Mark Scout might betray Lumon when Severance returns.</article>
+    <article id="m4-question">Did Mark Scout betray the board in Severance?</article>
+    <article id="m4-theory">Fan theory: Mark Scout could secretly be the founder of Lumon.</article>
+    <article id="m4-conditional">If Mark Scout dies, Severance would lose its emotional center.</article>
+    <article id="m4-metadata">Severance begins streaming Friday with restored captions.</article>
+    <article id="m4-schedule">Denver Nuggets host the Celtics next Tuesday.</article>
+    <article id="m4-common-collision">A brown bear died near the national park.</article>
+    <article id="m4-confirmed">Severance finale reveals Mark Scout betrayed Lumon and destroyed the archive.</article>
+    <section id="dynamic"></section>
+    <button id="insert" type="button">Insert confirmed result</button>
+  </main>
+  <script>
+    document.querySelector("#insert").addEventListener("click", () => {
+      const article = document.createElement("article");
+      article.id = "m4-dynamic-confirmed";
+      article.textContent = "Mark Scout dies in the Severance finale after betraying Lumon.";
+      document.querySelector("#dynamic").append(article);
+    });
+  </script>
+</body>
+</html>

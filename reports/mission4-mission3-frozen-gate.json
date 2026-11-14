@@ -1,0 +1,7411 @@
+{
+  "schemaVersion": 1,
+  "label": "mission2-deterministic-on-frozen-mission3-ood",
+  "challengeChecksum": "5bbd4912efbe42f771bd8a54e2916c21b04781bfca126e9754399732ab49fde8",
+  "corpus": {
+    "total": 600,
+    "spoiler": 300,
+    "benign": 300,
+    "bySplit": {
+      "development": 120,
+      "entity-heldout": 120,
+      "linguistic-heldout": 120,
+      "indirect-reveal": 120,
+      "benign-adversarial": 120
+    },
+    "byCategory": {
+      "tv": 100,
+      "movie": 100,
+      "sports": 100,
+      "game": 100,
+      "book": 100,
+      "competition": 100
+    },
+    "indirectReveal": 120,
+    "benignAdversarial": 180
+  },
+  "metrics": {
+    "development": {
+      "total": 120,
+      "truePositives": 12,
+      "falsePositives": 12,
+      "trueNegatives": 48,
+      "falseNegatives": 48,
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.2857,
+      "falsePositiveRate": 0.2,
+      "falseNegativeRate": 0.8
+    },
+    "entity-heldout": {
+      "total": 120,
+      "truePositives": 17,
+      "falsePositives": 13,
+      "trueNegatives": 47,
+      "falseNegatives": 43,
+      "precision": 0.5667,
+      "recall": 0.2833,
+      "f1": 0.3778,
+      "falsePositiveRate": 0.2167,
+      "falseNegativeRate": 0.7167
+    },
+    "linguistic-heldout": {
+      "total": 120,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 60,
+      "falseNegatives": 60,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal": {
+      "total": 120,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 60,
+      "falseNegatives": 60,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial": {
+      "total": 120,
+      "truePositives": 13,
+      "falsePositives": 6,
+      "trueNegatives": 54,
+      "falseNegatives": 47,
+      "precision": 0.6842,
+      "recall": 0.2167,
+      "f1": 0.3292,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.7833
+    },
+    "overall": {
+      "total": 600,
+      "truePositives": 42,
+      "falsePositives": 31,
+      "trueNegatives": 269,
+      "falseNegatives": 258,
+      "precision": 0.5753,
+      "recall": 0.14,
+      "f1": 0.2252,
+      "falsePositiveRate": 0.1033,
+      "falseNegativeRate": 0.86
+    }
+  },
+  "byCategory": {
+    "book": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    },
+    "competition": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 6,
+      "trueNegatives": 44,
+      "falseNegatives": 43,
+      "precision": 0.5385,
+      "recall": 0.14,
+      "f1": 0.2222,
+      "falsePositiveRate": 0.12,
+      "falseNegativeRate": 0.86
+    },
+    "game": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    },
+    "movie": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    },
+    "sports": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    },
+    "tv": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    }
+  },
+  "byTag": {
+    "benign": {
+      "total": 300,
+      "truePositives": 0,
+      "falsePositives": 31,
+      "trueNegatives": 269,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0.1033,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial": {
+      "total": 180,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 174,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0.0333,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "benign-adversarial-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "benign-adversarial-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 1,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 5,
+      "precision": 1,
+      "recall": 0.1667,
+      "f1": 0.2858,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.8333
+    },
+    "book": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    },
+    "competition": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 6,
+      "trueNegatives": 44,
+      "falseNegatives": 43,
+      "precision": 0.5385,
+      "recall": 0.14,
+      "f1": 0.2222,
+      "falsePositiveRate": 0.12,
+      "falseNegativeRate": 0.86
+    },
+    "development-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "development-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 5,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 1,
+      "precision": 1,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.1667
+    },
+    "development-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "development-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "development-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "development-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "development-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "development-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "development-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "development-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 1,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 5,
+      "precision": 1,
+      "recall": 0.1667,
+      "f1": 0.2858,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.8333
+    },
+    "entity-heldout-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 6,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 1,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 1,
+      "trueNegatives": 5,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0.1667,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "entity-heldout-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 5,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 1,
+      "precision": 1,
+      "recall": 0.8333,
+      "f1": 0.9091,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.1667
+    },
+    "entity-heldout-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "entity-heldout-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "entity-heldout-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "entity-heldout-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "entity-heldout-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "entity-heldout-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "entity-heldout-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "game": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    },
+    "indirect-reveal": {
+      "total": 120,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 120,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "indirect-reveal-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "indirect-reveal-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-benign-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-benign-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 6,
+      "falseNegatives": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0
+    },
+    "linguistic-heldout-spoiler-family-01": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-02": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-03": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-04": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-05": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-06": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-07": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-08": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-09": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "linguistic-heldout-spoiler-family-10": {
+      "total": 6,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 6,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "long-context": {
+      "total": 300,
+      "truePositives": 2,
+      "falsePositives": 1,
+      "trueNegatives": 149,
+      "falseNegatives": 148,
+      "precision": 0.6667,
+      "recall": 0.0133,
+      "f1": 0.0261,
+      "falsePositiveRate": 0.0067,
+      "falseNegativeRate": 0.9867
+    },
+    "movie": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    },
+    "short-context": {
+      "total": 300,
+      "truePositives": 40,
+      "falsePositives": 30,
+      "trueNegatives": 120,
+      "falseNegatives": 110,
+      "precision": 0.5714,
+      "recall": 0.2667,
+      "f1": 0.3637,
+      "falsePositiveRate": 0.2,
+      "falseNegativeRate": 0.7333
+    },
+    "split:benign-adversarial": {
+      "total": 120,
+      "truePositives": 13,
+      "falsePositives": 6,
+      "trueNegatives": 54,
+      "falseNegatives": 47,
+      "precision": 0.6842,
+      "recall": 0.2167,
+      "f1": 0.3292,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.7833
+    },
+    "split:development": {
+      "total": 120,
+      "truePositives": 12,
+      "falsePositives": 12,
+      "trueNegatives": 48,
+      "falseNegatives": 48,
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.2857,
+      "falsePositiveRate": 0.2,
+      "falseNegativeRate": 0.8
+    },
+    "split:entity-heldout": {
+      "total": 120,
+      "truePositives": 17,
+      "falsePositives": 13,
+      "trueNegatives": 47,
+      "falseNegatives": 43,
+      "precision": 0.5667,
+      "recall": 0.2833,
+      "f1": 0.3778,
+      "falsePositiveRate": 0.2167,
+      "falseNegativeRate": 0.7167
+    },
+    "split:indirect-reveal": {
+      "total": 120,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 60,
+      "falseNegatives": 60,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "split:linguistic-heldout": {
+      "total": 120,
+      "truePositives": 0,
+      "falsePositives": 0,
+      "trueNegatives": 60,
+      "falseNegatives": 60,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 1
+    },
+    "spoiler": {
+      "total": 300,
+      "truePositives": 42,
+      "falsePositives": 0,
+      "trueNegatives": 0,
+      "falseNegatives": 258,
+      "precision": 1,
+      "recall": 0.14,
+      "f1": 0.2456,
+      "falsePositiveRate": 0,
+      "falseNegativeRate": 0.86
+    },
+    "sports": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    },
+    "title-absent": {
+      "total": 180,
+      "truePositives": 6,
+      "falsePositives": 18,
+      "trueNegatives": 72,
+      "falseNegatives": 84,
+      "precision": 0.25,
+      "recall": 0.0667,
+      "f1": 0.1053,
+      "falsePositiveRate": 0.2,
+      "falseNegativeRate": 0.9333
+    },
+    "title-present": {
+      "total": 420,
+      "truePositives": 36,
+      "falsePositives": 13,
+      "trueNegatives": 197,
+      "falseNegatives": 174,
+      "precision": 0.7347,
+      "recall": 0.1714,
+      "f1": 0.278,
+      "falsePositiveRate": 0.0619,
+      "falseNegativeRate": 0.8286
+    },
+    "tv": {
+      "total": 100,
+      "truePositives": 7,
+      "falsePositives": 5,
+      "trueNegatives": 45,
+      "falseNegatives": 43,
+      "precision": 0.5833,
+      "recall": 0.14,
+      "f1": 0.2258,
+      "falsePositiveRate": 0.1,
+      "falseNegativeRate": 0.86
+    }
+  },
+  "failures": {
+    "falsePositives": [
+      {
+        "id": "development-tv-benign-04",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "benign",
+          "short-context",
+          "title-present",
+          "development-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-tv-benign-05",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-movie-benign-04",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "benign",
+          "short-context",
+          "title-present",
+          "development-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-movie-benign-05",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-sports-benign-04",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "benign",
+          "short-context",
+          "title-present",
+          "development-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-sports-benign-05",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-game-benign-04",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "benign",
+          "short-context",
+          "title-present",
+          "development-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-game-benign-05",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-book-benign-04",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "benign",
+          "short-context",
+          "title-present",
+          "development-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-book-benign-05",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-competition-benign-04",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "benign",
+          "short-context",
+          "title-present",
+          "development-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "development-competition-benign-05",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "benign",
+          "short-context",
+          "title-absent",
+          "development-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-benign-04",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "benign",
+          "short-context",
+          "title-present",
+          "entity-heldout-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-benign-05",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-benign-04",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "benign",
+          "short-context",
+          "title-present",
+          "entity-heldout-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-benign-05",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-benign-04",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "benign",
+          "short-context",
+          "title-present",
+          "entity-heldout-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-benign-05",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-benign-04",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "benign",
+          "short-context",
+          "title-present",
+          "entity-heldout-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-benign-05",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-benign-04",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "benign",
+          "short-context",
+          "title-present",
+          "entity-heldout-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-benign-05",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-benign-04",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "benign",
+          "short-context",
+          "title-present",
+          "entity-heldout-benign-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-benign-05",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "benign",
+          "short-context",
+          "title-absent",
+          "entity-heldout-benign-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-benign-10",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "benign",
+          "long-context",
+          "title-present",
+          "entity-heldout-benign-family-10"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "metadata",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-benign-05",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-benign-05",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-benign-05",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-benign-05",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-benign-05",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-benign-05",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "benign",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-benign-family-05",
+          "benign-adversarial"
+        ],
+        "score": 13,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "asserted-reveal"
+        ]
+      }
+    ],
+    "falseNegatives": [
+      {
+        "id": "development-tv-spoiler-01",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-tv-spoiler-04",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "development-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-tv-spoiler-05",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-tv-spoiler-06",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-tv-spoiler-07",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-tv-spoiler-08",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-tv-spoiler-09",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "development-spoiler-family-09"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-tv-spoiler-10",
+        "split": "development",
+        "category": "tv",
+        "tags": [
+          "split:development",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-10"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-01",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-04",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "development-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-05",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-06",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-07",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-08",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-09",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "development-spoiler-family-09"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-movie-spoiler-10",
+        "split": "development",
+        "category": "movie",
+        "tags": [
+          "split:development",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-10"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-01",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-04",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "development-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-05",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-06",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-07",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-08",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-09",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "development-spoiler-family-09"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-sports-spoiler-10",
+        "split": "development",
+        "category": "sports",
+        "tags": [
+          "split:development",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-10"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-01",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-04",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "development-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-05",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-06",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-07",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-08",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-09",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "development-spoiler-family-09"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-game-spoiler-10",
+        "split": "development",
+        "category": "game",
+        "tags": [
+          "split:development",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-10"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-01",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-04",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "development-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-05",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-06",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-07",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-08",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-09",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "development-spoiler-family-09"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-book-spoiler-10",
+        "split": "development",
+        "category": "book",
+        "tags": [
+          "split:development",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-10"
+        ],
+        "score": 6,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-01",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-02",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "development-spoiler-family-02"
+        ],
+        "score": 11,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "review-or-language-context",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-04",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "development-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-05",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "development-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-06",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-07",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-08",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "development-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "development-competition-spoiler-09",
+        "split": "development",
+        "category": "competition",
+        "tags": [
+          "split:development",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "development-spoiler-family-09"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-spoiler-01",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-spoiler-04",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "entity-heldout-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-spoiler-06",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-spoiler-07",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-spoiler-08",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-spoiler-09",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-tv-spoiler-10",
+        "split": "entity-heldout",
+        "category": "tv",
+        "tags": [
+          "split:entity-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-10"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-spoiler-01",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-spoiler-04",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "entity-heldout-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-spoiler-06",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-spoiler-07",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-spoiler-08",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-spoiler-09",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-movie-spoiler-10",
+        "split": "entity-heldout",
+        "category": "movie",
+        "tags": [
+          "split:entity-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-10"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-spoiler-01",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-spoiler-04",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "entity-heldout-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-spoiler-06",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-spoiler-07",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-spoiler-08",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-spoiler-09",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-sports-spoiler-10",
+        "split": "entity-heldout",
+        "category": "sports",
+        "tags": [
+          "split:entity-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-10"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-spoiler-01",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-spoiler-04",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "entity-heldout-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-spoiler-06",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-spoiler-07",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-spoiler-08",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-spoiler-09",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-game-spoiler-10",
+        "split": "entity-heldout",
+        "category": "game",
+        "tags": [
+          "split:entity-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-10"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-01",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-04",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "entity-heldout-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-06",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-07",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-08",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-09",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-book-spoiler-10",
+        "split": "entity-heldout",
+        "category": "book",
+        "tags": [
+          "split:entity-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-10"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-01",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-02",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "entity-heldout-spoiler-family-02"
+        ],
+        "score": 11,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "review-or-language-context",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-04",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "entity-heldout-spoiler-family-04"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-06",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-06"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-07",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-08",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-09",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "entity-heldout-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "entity-heldout-competition-spoiler-10",
+        "split": "entity-heldout",
+        "category": "competition",
+        "tags": [
+          "split:entity-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "entity-heldout-spoiler-family-10"
+        ],
+        "score": 4.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-02",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-04",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-05",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-06",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-07",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-08",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-09",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-tv-spoiler-10",
+        "split": "linguistic-heldout",
+        "category": "tv",
+        "tags": [
+          "split:linguistic-heldout",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-02",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-04",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-05",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-06",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-07",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-08",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-09",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-movie-spoiler-10",
+        "split": "linguistic-heldout",
+        "category": "movie",
+        "tags": [
+          "split:linguistic-heldout",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-02",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-04",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-05",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-06",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-07",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-08",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-09",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-sports-spoiler-10",
+        "split": "linguistic-heldout",
+        "category": "sports",
+        "tags": [
+          "split:linguistic-heldout",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-02",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-04",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-05",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-06",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-07",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-08",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-09",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-game-spoiler-10",
+        "split": "linguistic-heldout",
+        "category": "game",
+        "tags": [
+          "split:linguistic-heldout",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-02",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-04",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-05",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-06",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-07",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-08",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-09",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-book-spoiler-10",
+        "split": "linguistic-heldout",
+        "category": "book",
+        "tags": [
+          "split:linguistic-heldout",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-01",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-02",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 2,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "review-or-language-context",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-03",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-04",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-05",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-06",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-07",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-08",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-09",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "linguistic-heldout-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "linguistic-heldout-competition-spoiler-10",
+        "split": "linguistic-heldout",
+        "category": "competition",
+        "tags": [
+          "split:linguistic-heldout",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "linguistic-heldout-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 4.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-02",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-03",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-04",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-05",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-06",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-07",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-09",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-tv-spoiler-10",
+        "split": "indirect-reveal",
+        "category": "tv",
+        "tags": [
+          "split:indirect-reveal",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-02",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-03",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-04",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-05",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-06",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-07",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-09",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-movie-spoiler-10",
+        "split": "indirect-reveal",
+        "category": "movie",
+        "tags": [
+          "split:indirect-reveal",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-02",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-03",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-04",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-05",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-06",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-07",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-09",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-sports-spoiler-10",
+        "split": "indirect-reveal",
+        "category": "sports",
+        "tags": [
+          "split:indirect-reveal",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-02",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-03",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-04",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-05",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-06",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-07",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-09",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-game-spoiler-10",
+        "split": "indirect-reveal",
+        "category": "game",
+        "tags": [
+          "split:indirect-reveal",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-02",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-03",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-04",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-05",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-06",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-07",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-09",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-book-spoiler-10",
+        "split": "indirect-reveal",
+        "category": "book",
+        "tags": [
+          "split:indirect-reveal",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-01",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-01",
+          "indirect-reveal"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-02",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-02",
+          "indirect-reveal"
+        ],
+        "score": 2,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "review-or-language-context",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-03",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-03",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-04",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-04",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-05",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-05",
+          "indirect-reveal"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-06",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-06",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-07",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-07",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-08",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-08",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-09",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "indirect-reveal-spoiler-family-09",
+          "indirect-reveal"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "indirect-reveal-competition-spoiler-10",
+        "split": "indirect-reveal",
+        "category": "competition",
+        "tags": [
+          "split:indirect-reveal",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "indirect-reveal-spoiler-family-10",
+          "indirect-reveal"
+        ],
+        "score": 4.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-02",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-02"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-05",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-06",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-06"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-07",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-08",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-09",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-tv-spoiler-10",
+        "split": "benign-adversarial",
+        "category": "tv",
+        "tags": [
+          "split:benign-adversarial",
+          "tv",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-10"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-02",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-02"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-05",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-06",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-06"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-07",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-08",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-09",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-movie-spoiler-10",
+        "split": "benign-adversarial",
+        "category": "movie",
+        "tags": [
+          "split:benign-adversarial",
+          "movie",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-10"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-02",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-02"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-05",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-06",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-06"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-07",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-08",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-09",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-sports-spoiler-10",
+        "split": "benign-adversarial",
+        "category": "sports",
+        "tags": [
+          "split:benign-adversarial",
+          "sports",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-10"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-02",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-02"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-05",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-06",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-06"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-07",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-08",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-09",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-game-spoiler-10",
+        "split": "benign-adversarial",
+        "category": "game",
+        "tags": [
+          "split:benign-adversarial",
+          "game",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-10"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-02",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-02"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-05",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-06",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-06"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-07",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-08",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-09",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-book-spoiler-10",
+        "split": "benign-adversarial",
+        "category": "book",
+        "tags": [
+          "split:benign-adversarial",
+          "book",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-10"
+        ],
+        "score": 5.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-spoiler-01",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-01"
+        ],
+        "score": 3,
+        "reasons": [
+          "protected term",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-spoiler-02",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-02"
+        ],
+        "score": 2,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "review-or-language-context",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-spoiler-05",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "spoiler",
+          "short-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-05"
+        ],
+        "score": 7,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "insufficient-reveal-evidence"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-spoiler-06",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-06"
+        ],
+        "score": 6.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "reveal evidence",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-spoiler-07",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-07"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-spoiler-08",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-present",
+          "benign-adversarial-spoiler-family-08"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      },
+      {
+        "id": "benign-adversarial-competition-spoiler-09",
+        "split": "benign-adversarial",
+        "category": "competition",
+        "tags": [
+          "split:benign-adversarial",
+          "competition",
+          "spoiler",
+          "long-context",
+          "title-absent",
+          "benign-adversarial-spoiler-family-09"
+        ],
+        "score": 2.5,
+        "reasons": [
+          "protected term",
+          "multiple protected terms",
+          "future-or-preview",
+          "benign-epistemic-context"
+        ]
+      }
+    ]
+  },
+  "scoreDistribution": {
+    "0": 161,
+    "1": 11,
+    "2": 3,
+    "3": 42,
+    "4": 6,
+    "6": 17,
+    "7": 124,
+    "8": 1,
+    "11": 8,
+    "12": 12,
+    "13": 6,
+    "16": 10,
+    "0.5": 1,
+    "2.5": 157,
+    "4.5": 5,
+    "5.5": 11,
+    "6.5": 12,
+    "7.5": 1,
+    "10.5": 12
+  }
+}
